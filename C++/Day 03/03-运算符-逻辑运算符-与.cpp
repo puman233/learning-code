@@ -1,8 +1,8 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 int main() {
-	//Âß¼­ÔËËã·û		Óë &&
+	//â”¬â–€â•Â¡Ãˆâ•¦â•¦Ã’Ã€Â¹		Ã‹Ã™ &&
 
 	int a = 10;
 	int b = 10;

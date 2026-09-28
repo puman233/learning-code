@@ -27,7 +27,7 @@ int main() {
 	}
 	ch2[i] = '\0';*/
 
-	// ²âÊÔ
+	// æµ‹è¯•
 	/*for ( i = 0; i < strlen(ch1); i++)
 	{
 		printf("%c ", ch1[i]);

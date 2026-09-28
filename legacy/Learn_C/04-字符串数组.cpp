@@ -1,10 +1,10 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 
 int main(int argc, char const *argv[]) {
 	
 
-	// µÚÈıĞĞÌáÊ¾ ³¬¹ıÊı×é³¤¶È
+	// ç¬¬ä¸‰è¡Œæç¤º è¶…è¿‡æ•°ç»„é•¿åº¦
 	/*char a[][10] = {
 		"hello",
 		"world",

@@ -22,7 +22,7 @@
 //    return head;
 //}
 //
-//// 先获取尾节点
+//// 鍏堣幏鍙栧熬鑺傜偣
 //Node *get_tail(Node *L) {
 //    Node *p = L;
 //    while (p->next != NULL) {

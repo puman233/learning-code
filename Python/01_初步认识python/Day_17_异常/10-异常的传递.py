@@ -1,4 +1,4 @@
-import time
+﻿import time
 
 try:
     f = open("test.txt", "r")

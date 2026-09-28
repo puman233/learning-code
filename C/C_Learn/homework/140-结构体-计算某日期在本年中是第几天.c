@@ -8,7 +8,7 @@
 //};
 //
 //int isLeap(int year) {
-//    int res = 0;    // Ä¬ÈÏ·ÇÈòÄê
+//    int res = 0;    // é»˜è®¤éé—°å¹´
 //
 //    if ((year % 400 == 0) || (year % 100 != 0 && year % 4 == 0)) res = 1;
 //

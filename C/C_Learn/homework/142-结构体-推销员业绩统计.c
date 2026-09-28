@@ -22,7 +22,7 @@
 //        if (i == -1) {
 //            break;
 //        }
-//        // ½«±àºÅ×ª»»ÎªÏÂ±ê£¨ÒòÎª±àºÅÊÇ´Ó 1 ¿ªÊ¼£©
+//        // å°†ç¼–å·è½¬æ¢ä¸ºä¸‹æ ‡ï¼ˆå› ä¸ºç¼–å·æ˜¯ä» 1 å¼€å§‹ï¼‰
 //        i--;
 //        j--;
 //        sale_statistics[count].salerId = i;
@@ -34,7 +34,7 @@
 //    float totalAmount[m][n];
 //    float rowAmount[m], colAmount[n];
 //
-//    // ÇåÁãÊı×é
+//    // æ¸…é›¶æ•°ç»„
 //    for (i = 0; i < m; i++) {
 //        rowAmount[i] = 0;
 //        for (j = 0; j < n; j++) {

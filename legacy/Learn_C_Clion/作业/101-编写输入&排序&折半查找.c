@@ -6,7 +6,7 @@
 
 int find(int stu[10][3], int x);
 
-// 数据输入
+// 鏁版嵁杈撳叆
 void input(int stu[10][3]) {
     int i, j;
     for (i = 0; i < 10; i++) {
@@ -16,7 +16,7 @@ void input(int stu[10][3]) {
     }
 }
 
-// 学生编号 从小到大
+// 瀛︾敓缂栧彿 浠庡皬鍒板ぇ
 void sort(int stu[10][3]) {
     int i, j;
     for (i = 0; i < 9; i++) {
@@ -31,7 +31,7 @@ void sort(int stu[10][3]) {
 
 }
 
-// 折半 查找 学生编号 x，找到返回下标，否则 -1
+// 鎶樺崐 鏌ユ壘 瀛︾敓缂栧彿 x锛屾壘鍒拌繑鍥炰笅鏍囷紝鍚﹀垯 -1
 int find(int stu[10][3], int x) {
     int left = 0, right = 9;
 

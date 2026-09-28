@@ -8,7 +8,7 @@ int main() {
 
 	scanf("%d", &n);
 
-	// ËØÊý
+	// ç´ æ•°
 	int isPrime = 1;
 
 	for (i = 2; i <= n / 2; i++) {

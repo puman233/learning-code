@@ -1,4 +1,4 @@
-//#include <stdio.h>
+ï»¿//#include <stdio.h>
 //#include <stdlib.h>
 //
 //#define MAXSIZE 100
@@ -10,9 +10,9 @@
 //    int length;
 //} SeqList;
 //
-//// ³õÊ¼»¯
+//// åˆå§‹åŒ–
 //SeqList *initList(){
-//    // ÎŞĞè´«²Î£¬×Ô¼ºÉùÃ÷ *L
+//    // æ— éœ€ä¼ å‚ï¼Œè‡ªå·±å£°æ˜ *L
 //    SeqList *L = (SeqList*)malloc(sizeof(SeqList));
 //    L->data = (ElementType*)malloc(sizeof(ElementType)*MAXSIZE);
 //    L->length = 0;
@@ -20,7 +20,7 @@
 //    return L;
 //}
 //
-//// Ë³Ğò±í - Î²Ôö·¨
+//// é¡ºåºè¡¨ - å°¾å¢æ³•
 //int appendElement(SeqList *L, ElementType e) {
 //    if (L->length >= MAXSIZE) {
 //        printf("Fully!\n");
@@ -30,7 +30,7 @@
 //    return 0;
 //}
 //
-//// Ë³Ğò±í - ±éÀú
+//// é¡ºåºè¡¨ - éå†
 //void listElement(SeqList *L) {
 //    for (int i = 0; i < L->length; i++) {
 //        printf("%d ", L->data[i]);
@@ -38,7 +38,7 @@
 //    printf("\n");
 //}
 //
-//// Ë³Ğò±í - Ö¸¶¨Î»ÖÃ²åÈëÔªËØ
+//// é¡ºåºè¡¨ - æŒ‡å®šä½ç½®æ’å…¥å…ƒç´ 
 //int insertElement(SeqList *L, ElementType e, int position) {
 //    if (L->length >= MAXSIZE) {
 //        printf("Fully!\n");
@@ -48,13 +48,13 @@
 //        printf("Invalid!\n");
 //        return 0;
 //    }
-//    // Èç¹û²åÈëµÄÎ»ÖÃÊÇ×îºóÎ»ÖÃ£¨¼´²åÈëµ½Ä©Î²£©
+//    // å¦‚æœæ’å…¥çš„ä½ç½®æ˜¯æœ€åä½ç½®ï¼ˆå³æ’å…¥åˆ°æœ«å°¾ï¼‰
 //    if (position == L->length) {
-//        appendElement(L, e);  // Ö±½Ó½«ÔªËØÌí¼Óµ½Ä©Î²
+//        appendElement(L, e);  // ç›´æ¥å°†å…ƒç´ æ·»åŠ åˆ°æœ«å°¾
 //        return 0;
 //    }
 //    if (position <= L->length) {
-//        // ÍùºóÅ²ÔªËØ
+//        // å¾€åæŒªå…ƒç´ 
 //        for (int i = L->length - 1; i > position - 1; i--) {
 //            L->data[i + 1] = L->data[i];
 //        }
@@ -64,7 +64,7 @@
 //    return 1;
 //}
 //
-//// Ë³Ğò±í - Ö¸¶¨Î»ÖÃ É¾³ıÔªËØ
+//// é¡ºåºè¡¨ - æŒ‡å®šä½ç½® åˆ é™¤å…ƒç´ 
 //int deleteElement(SeqList *L, int position) {
 //    if (L->length == 0) {
 //        printf("Empty!\n");
@@ -75,7 +75,7 @@
 //        return 0;
 //    }
 //    if (position < L->length) {
-//        // ÍùÇ°Å²ÔªËØ
+//        // å¾€å‰æŒªå…ƒç´ 
 //        for (int i = position; i < L->length; i++) {
 //            L->data[i - 1] = L->data[i];
 //        }
@@ -86,7 +86,7 @@
 //
 //}
 //
-//// Ë³Ğò±í - ²éÕÒÔªËØ µÚÒ»´Î³öÏÖµÄÎ»ÖÃ
+//// é¡ºåºè¡¨ - æŸ¥æ‰¾å…ƒç´  ç¬¬ä¸€æ¬¡å‡ºç°çš„ä½ç½®
 //int findElement(SeqList *L, ElementType e){
 //    if (L == NULL) {
 //        printf("Empty!\n");
@@ -109,7 +109,7 @@
 //
 //int main(int argc, char *argv[]) {
 //
-//    // ÉùÃ÷Ë³Ğò±í
+//    // å£°æ˜é¡ºåºè¡¨
 //    // SeqList list;
 //    // initList(&list);
 //    SeqList *list = initList();

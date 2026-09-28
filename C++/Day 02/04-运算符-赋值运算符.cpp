@@ -1,9 +1,9 @@
-//#include<iostream>
+ï»¿//#include<iostream>
 //using namespace std;
 //
 //int main() {
 //
-//	//¸³ÖµÔËËã·û
+//	//âˆâ‰¥Ã·Âµâ€˜Ã€Ã€â€âˆ‘Ëš
 //	int a = 10;
 //
 //	// = 

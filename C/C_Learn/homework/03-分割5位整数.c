@@ -7,7 +7,7 @@
 //	scanf("%d", &num);
 //
 //	
-//	// ÏÈÊı¶àÉÙÎ»
+//	// å…ˆæ•°å¤šå°‘ä½
 //	count = num;
 //	while (count > 9) {
 //		count /= 10;
@@ -16,7 +16,7 @@
 //
 //	do
 //	{
-//		int result = num / mask;	// È¡×î×ó±ßµÄÊı
+//		int result = num / mask;	// å–æœ€å·¦è¾¹çš„æ•°
 //		printf("%d   ", result);
 //
 //		num %= mask;

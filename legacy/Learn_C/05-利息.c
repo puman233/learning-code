@@ -5,7 +5,7 @@ int main() {
 
 	int money, year;
 	float rate;
-	float interest;	// ˰ǰ
+	float interest;	// 税前
 
 	printf("Enter money,year and rate:");
 	scanf("%d %d %f", &money, &year, &rate);

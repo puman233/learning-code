@@ -1,4 +1,4 @@
-//#include<stdio.h>
+ï»¿//#include<stdio.h>
 //#include<stdlib.h>
 //
 //
@@ -8,7 +8,7 @@
 //
 //	scanf_s("%d", &n);
 //
-//	// ÊäÈëÅÅÁĞ
+//	// Ä˜Ã¤ÄŒÃ«Ä¹Ä¹ÃÄ
 //	int* p = (int*)malloc(n * sizeof(int));
 //
 //	int i = 0;

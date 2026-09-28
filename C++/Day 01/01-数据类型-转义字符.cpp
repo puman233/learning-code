@@ -1,25 +1,25 @@
-#include<iostream>
+﻿#include<iostream>
 using namespace std;
 
 /*
-	ת���ַ�
-		���ã�
-			���ڱ�ʾһЩ������ʾ������ASCII�ַ�
+	转义字符
+		作用：
+			用于表示一些不能显示出来的ASCII字符
 
-		���õ��У�
+		常用的有：
 			\n
 			\\ 
 */
 int main() {
-	//ת���ַ�
+	//转义字符
 
-	//���з�	\n
+	//换行符	\n
 	cout << "hello world\n";
-	//��б��	\\
+	//反斜杠	\\
 	
 	cout << "\\" << endl;
 
-	//ˮƽ�Ʊ���		\t
+	//水平制表符		\t
 
 	cout << "aaaaa\thelloworld" << endl;
 	cout << "aaa\thelloworld" << endl;

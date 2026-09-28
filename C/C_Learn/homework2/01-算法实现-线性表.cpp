@@ -1,7 +1,7 @@
-///*
-//ÏÂÃæµÄËã·¨ÊÇÀûÓÃÁ½¸öÏßÐÔ±íLAºÍLB·Ö±ð±íÊ¾Á½¸ö¼¯ºÏAºÍB£¬
-//ÇóÒ»¸öÐÂµÄ¼¯ºÏA=A¡ÈB¡£ÊÔÓÃCÓïÑÔÊµÏÖ¸ÃËã·¨¡£
-//void union(List &La£¬List Lb) {
+ï»¿///*
+//ä¸‹é¢çš„ç®—æ³•æ˜¯åˆ©ç”¨ä¸¤ä¸ªçº¿æ€§è¡¨LAå’ŒLBåˆ†åˆ«è¡¨ç¤ºä¸¤ä¸ªé›†åˆAå’ŒBï¼Œ
+//æ±‚ä¸€ä¸ªæ–°çš„é›†åˆA=AâˆªBã€‚è¯•ç”¨Cè¯­è¨€å®žçŽ°è¯¥ç®—æ³•ã€‚
+//void union(List &Laï¼ŒList Lb) {
 //       La_len=ListLength(La);
 //       Lb_len=ListLength(Lb);
 //       for(i=1;i<=Lb_len;i++) {
@@ -80,7 +80,7 @@
 //}
 //
 ///*
-//void union(List &La£¬List Lb) {
+//void union(List &Laï¼ŒList Lb) {
 //    La_len=ListLength(La);
 //    Lb_len=ListLength(Lb);
 //    for(i=1;i<=Lb_len;i++) {

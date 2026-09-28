@@ -1,7 +1,7 @@
-//#include <iostream>
+ï»¿//#include <iostream>
 //using namespace std;
 //
-////º¯ÊýµÄ¶¨Òå
+////å‡½æ•°çš„å®šä¹‰
 //void swap(int a, int b) {
 //	int temp = a;
 //	a = b;

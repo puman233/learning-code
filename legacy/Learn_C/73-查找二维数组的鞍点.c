@@ -3,7 +3,7 @@
 int main() {
 
 	int a[1000][10] = { 0 };
-	// °°µã
+	// éç‚¹
 	int saddle = 0;
 	int m, n;
 
@@ -18,17 +18,17 @@ int main() {
 		}
 	}
 
-	// ²éÕÒ°°µã
+	// æŸ¥æ‰¾éç‚¹
 	//int max = a[0][0], min = a[0][0];
 	int row_max;
 	int row_max_index = 0, column_min_index = 0;
-	int is_saddle = 1;	// Ä¬ÈÏÎª°°µã
+	int is_saddle = 1;	// é»˜è®¤ä¸ºéç‚¹
 	for ( i = 0; i < m; i++)
 	{
-		// ÇĞ¼ÇÃ¿ÂÖÖØÖÃ 1 ·ñÔòÎª None
+		// åˆ‡è®°æ¯è½®é‡ç½® 1 å¦åˆ™ä¸º None
 		is_saddle = 1;
 		row_max = a[i][0];
-		// ÕÒ ĞĞ ×î´ó
+		// æ‰¾ è¡Œ æœ€å¤§
 		for (j = 0; j < n; j++) {
 			if (row_max < a[i][j])
 			{
@@ -38,18 +38,18 @@ int main() {
 			}
 		}
 
-		// ÅĞ¶Ï ÊÇ·ñÁĞ×îĞ¡
+		// åˆ¤æ–­ æ˜¯å¦åˆ—æœ€å°
 		for (k = 0; k < m; k++)
 		{
-			// Ö»Òª row_max ´óÓÚ ÁĞ ÖĞ³ı×Ô¼ºÒÔÍâµÄÊı
-			// Ôò²»ÊÇ°°µã
+			// åªè¦ row_max å¤§äº åˆ— ä¸­é™¤è‡ªå·±ä»¥å¤–çš„æ•°
+			// åˆ™ä¸æ˜¯éç‚¹
 			if (row_max > a[k][column_min_index]) {
 				is_saddle = 0;
 				break;
 			}
 		}
 
-		// ÒÔÏÂÎŞÒâÒå
+		// ä»¥ä¸‹æ— æ„ä¹‰
 		//if (column_min == row_max)
 		//{
 		//	is_saddle = 1;

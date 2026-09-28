@@ -1,4 +1,4 @@
-//#include<stdio.h>
+ï»¿//#include<stdio.h>
 //
 //#define SLEN 40
 //#define LIM 5
@@ -6,14 +6,14 @@
 //int main(int argc, char const *argv[]) {
 //	
 //
-//	// µÚÈıĞĞÌáÊ¾ ³¬¹ıÊı×é³¤¶È
+//	// ç¬¬ä¸‰è¡Œæç¤º è¶…è¿‡æ•°ç»„é•¿åº¦
 //	/*char a[][10] = {
 //		"hello",
 //		"world",
 //		"skkkkkkkkskk",
 //		"123456789"
 //	}*/
-//	// constÖ¸µÄÊÇÖ¸Õë±¾ÉíÊÇ³£Á¿£¬²»ÄÜ¸Ä±äÖ¸ÕëµÄÖ¸Ïò£¬µ«¿ÉÒÔ¸Ä±äÖ¸ÕëËùÖ¸ÏòµÄÄÚÈİ¡£
+//	// constæŒ‡çš„æ˜¯æŒ‡é’ˆæœ¬èº«æ˜¯å¸¸é‡ï¼Œä¸èƒ½æ”¹å˜æŒ‡é’ˆçš„æŒ‡å‘ï¼Œä½†å¯ä»¥æ”¹å˜æŒ‡é’ˆæ‰€æŒ‡å‘çš„å†…å®¹ã€‚
 //	char const* a[] = {
 //		"hello",
 //		"world",
@@ -27,31 +27,31 @@
 //		printf("%s\n", a[i]);
 //	}
 //
-//	// ÏÔÊ¾ÃüÁîĞĞ²ÎÊı
+//	// æ˜¾ç¤ºå‘½ä»¤è¡Œå‚æ•°
 //	for (i = 0; i < argc; i++)
 //	{
-//		// 0 ºÅ²ÎÊıÊÇ³ÌĞòÃû
+//		// 0 å·å‚æ•°æ˜¯ç¨‹åºå
 //		printf("%d:%s\n", i, argv[i]);
 //	}
 //
-//	// ×Ö·û´®Êı×é
-//	const char* mytalents[LIM] = {	// Ò²¿ÉÒÔÊ¹ÓÃ char mytalents[LIM][SLEN] = { ... }
+//	// å­—ç¬¦ä¸²æ•°ç»„
+//	const char* mytalents[LIM] = {	// ä¹Ÿå¯ä»¥ä½¿ç”¨ char mytalents[LIM][SLEN] = { ... }
 //		"Adding numbers swiftly",
 //		"Multiplying accurately", "Stashing data",
 //		"Following instructions to the letter",
 //		"Understanding the C language"
 //	};
-//	char yourtalents[LIM][SLEN] = {	// Ò²¿ÉÒÔÊ¹ÓÃ const char* yourtalents[LIM] = { ... }
+//	char yourtalents[LIM][SLEN] = {	// ä¹Ÿå¯ä»¥ä½¿ç”¨ const char* yourtalents[LIM] = { ... }
 //		"Walking in a straight line",
 //		"Sleeping", "Watching television",
 //		"Mailing letters", "Reading email"
 //	};
 //
 //
-//	// ÈÃÓÃ»§ÊäÈë×Ô¼ºµÄ²ÅÄÜ
+//	// è®©ç”¨æˆ·è¾“å…¥è‡ªå·±çš„æ‰èƒ½
 //	puts("Let's compare talents.");
 //	printf("%-36s  %-25s\n", "My Talents", "Your Talents");
-//	// ÏÔÊ¾²ÅÄÜÁĞ±í
+//	// æ˜¾ç¤ºæ‰èƒ½åˆ—è¡¨
 //	for (i = 0; i < LIM; i++)
 //		printf("%-36s  %-25s\n", mytalents[i], yourtalents[i]);
 //	printf("\nsizeof mytalents: %zd, sizeof yourtalents: %zd\n",

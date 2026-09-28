@@ -1,20 +1,20 @@
-//#include<iostream>
+ï»¿//#include<iostream>
 //using namespace std;
 //#include <string>
 //
 //int main() {
 //		
-//	// C ·ç¸ñ×Ö·û´®
+//	// C é£æ ¼å­—ç¬¦ä¸²
 //	/*
-//		×¢ÒâÊÂÏî£º
-//			1. char×Ö·û´®Ãû []
-//			2. µÈºÅºóÃæÓÃË«ÒıºÅ£¬°üÀ¨ÆğÀ´×Ö·û´®
+//		æ³¨æ„äº‹é¡¹ï¼š
+//			1. charå­—ç¬¦ä¸²å []
+//			2. ç­‰å·åé¢ç”¨åŒå¼•å·ï¼ŒåŒ…æ‹¬èµ·æ¥å­—ç¬¦ä¸²
 //	*/
 //	char str[] = "helloworld";
 //	cout << str << endl;
 //
-//	// C++·ç¸ñ×Ö·û´®
-//	// °üº¬Ò»¸öÍ·ÎÄ¼ş	#include <string>
+//	// C++é£æ ¼å­—ç¬¦ä¸²
+//	// åŒ…å«ä¸€ä¸ªå¤´æ–‡ä»¶	#include <string>
 //	string str2 = "helloworld";
 //	cout << str2 << endl;
 //

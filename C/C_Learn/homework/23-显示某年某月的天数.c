@@ -11,11 +11,11 @@
 //
 //	scanf("%d %d", &year, &month);
 //
-//	int isLeap = 0;	// Ä¬ÈÏÎª·ÇÈòÄêß÷
+//	int isLeap = 0;	// é»˜è®¤ä¸ºéé—°å¹´å–µ
 //
 //	if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
 //	{
-//		isLeap = 1;	// ÈòÄêß÷
+//		isLeap = 1;	// é—°å¹´å–µ
 //		Days(isLeap, month);
 //	}
 //	else
@@ -29,10 +29,10 @@
 //	return 0;
 //}
 //
-//// ½¨Ò»¸öÅĞ¶Ï
+//// å»ºä¸€ä¸ªåˆ¤æ–­
 //void Days(int n1, int n2)
 //{
-//	switch (n2)	// ÕâÀïmonth
+//	switch (n2)	// è¿™é‡Œmonth
 //	{
 //	case 1:
 //	case 3:

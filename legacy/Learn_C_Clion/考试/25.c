@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int sum(int a[10][10], int m, int n) {
 

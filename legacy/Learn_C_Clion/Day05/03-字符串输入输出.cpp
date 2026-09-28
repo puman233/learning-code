@@ -1,11 +1,11 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main() {
 
 	char word[8];
 	char word2[8];
 
-	// ·ÀÖ¹Ò°Ö¸Õë
+	// é˜²æ­¢é‡æŒ‡é’ˆ
 	//char* string;
 	char word3[8];
 	char* string = word3;
@@ -14,18 +14,18 @@ int main() {
 
 	printf("%s\n", string);
 
-	// ¿Õ×Ö·û´®
+	// ç©ºå­—ç¬¦ä¸²
 	char bufffer[100] = "";
-	// Êı×é³¤¶ÈÖ»ÓĞ1
+	// æ•°ç»„é•¿åº¦åªæœ‰1
 	char bufferZero[] = "";
 
-	// ²»°²È«
+	// ä¸å®‰å…¨
 	/*scanf_s("%s", word, 8);
 	scanf_s("%s", word2, 8);*/
 	scanf_s("%7s", word, 8);
 	scanf_s("%7s", word2, 8);
 
-	// Êä³ö£ºhellowo##rld##
+	// è¾“å‡ºï¼šhellowo##rld##
 	printf("%s##%s##\n", word, word2);
 	
 

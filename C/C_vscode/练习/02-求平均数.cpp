@@ -1,9 +1,9 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main() {
 	int number, sum = 0, count = 0;
 
-	printf("ÊäÈë-1ÍË³ö\n");
+	printf("è¾“å…¥-1é€€å‡º\n");
 	scanf_s("%d", &number);
 
 	while (number != -1) {
@@ -11,5 +11,5 @@ int main() {
 		count++;
 		scanf_s("%d", &number);
 	}
-	printf("Æ½¾ùÊıÎª£º%d\n", sum / count);
+	printf("å¹³å‡æ•°ä¸ºï¼š%d\n", sum / count);
 }

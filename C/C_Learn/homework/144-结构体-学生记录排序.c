@@ -20,7 +20,7 @@
 //        scanf("%d %s %d", &students[i].id, students[i].name, &students[i].age);
 //    }
 //
-//    // ĞÕÃû´ÓµÍµ½¸ß
+//    // å§“åä»ä½åˆ°é«˜
 //    for (i = 0; i < n - 1; i++) {
 //        for (j = 0; j < n - 1 - i; j++) {
 //            if (strcmp(students[j].name, students[j + 1].name) > 0) {
@@ -35,7 +35,7 @@
 //        printf("%3d%6s%3d\n", students[i].id ,students[i].name, students[i].age);
 //    }
 //
-//    // ÄêÁä´ÓµÍµ½¸ß
+//    // å¹´é¾„ä»ä½åˆ°é«˜
 //    for (i = 0; i < n - 1; i++) {
 //        for (j = 0; j < n - 1 - i; j++) {
 //            if (students[j].age > students[j + 1].age) {
@@ -43,7 +43,7 @@
 //                students[j] = students[j + 1];
 //                students[j + 1] = temp;
 //            }
-//            // ÄêÁäÏàÍ¬Ê±ÅÅĞòĞÕÃû
+//            // å¹´é¾„ç›¸åŒæ—¶æ’åºå§“å
 //            else if (students[j].age == students[j + 1].age) {
 //                if (strcmp(students[j].name, students[j + 1].name) > 0) {
 //                    struct Student temp = students[j];

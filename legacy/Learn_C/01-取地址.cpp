@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main() {
 
@@ -13,16 +13,16 @@ int main() {
 
 	int i = 0;
 
-	printf("0x%x\n", &i);	// Êä³ö±äÁ¿ i µÄµØÖ·
-	printf("%p\n", &i);		// Êä³ö±äÁ¿ i µÄµØÖ·
+	printf("0x%x\n", &i);	// è¾“å‡ºå˜é‡ i çš„åœ°å€
+	printf("%p\n", &i);		// è¾“å‡ºå˜é‡ i çš„åœ°å€
 
 	int p;
-	p = (int)&i;		// Ç¿ÖÆÀàĞÍ×ª»»
+	p = (int)&i;		// å¼ºåˆ¶ç±»å‹è½¬æ¢
 	printf("p=0x%x\n", p);
 
-	// %lu ÎŞ·ûºÅ³¤ÕûĞÍ unsigned long
-	printf("%lu\n", sizeof(&i));	// Ö¸ÕëÀàĞÍµÄ´óĞ¡
-	printf("lu=%lu\n", sizeof(int*));	// Ö¸ÕëÀàĞÍµÄ´óĞ¡
+	// %lu æ— ç¬¦å·é•¿æ•´å‹ unsigned long
+	printf("%lu\n", sizeof(&i));	// æŒ‡é’ˆç±»å‹çš„å¤§å°
+	printf("lu=%lu\n", sizeof(int*));	// æŒ‡é’ˆç±»å‹çš„å¤§å°
 
 
 

@@ -1,4 +1,4 @@
-# mygo_simulator
+﻿# mygo_simulator
 
 A new Flutter project.
 

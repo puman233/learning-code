@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// 滑动窗口
+// 婊戝姩绐楀彛
 double findMaxAverage(int* nums, int numsSize, int k) {
 
     int i;

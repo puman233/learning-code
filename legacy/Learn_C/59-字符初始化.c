@@ -7,7 +7,7 @@ int main() {
 
     printf("The string is:");
     
-    for (i = 0; str[i] != '\0'; i++)  //此行不要修改
+    for (i = 0; str[i] != '\0'; i++)  //姝よ涓嶈淇敼
     {
         putchar(str[i]);
     }

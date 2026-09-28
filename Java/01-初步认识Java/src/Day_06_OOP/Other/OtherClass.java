@@ -1,4 +1,4 @@
-package Day_06_OOP.Other;
+﻿package Day_06_OOP.Other;
 
 public class OtherClass {
     public int x = 5;

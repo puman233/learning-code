@@ -9,7 +9,7 @@
 //
 //int main(int argc, char *argv[]) {
 //
-//    // ÅóÓÑÊı n < 10
+//    // æœ‹å‹æ•° n < 10
 //    int n;
 //
 //    printf("Input n:");

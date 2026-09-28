@@ -1,8 +1,8 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main() {
 	int a = 2;
-	int b, c; // Í¬Ê±¶¨ÒåÁ½¸ö±äÁ¿
+	int b, c; // åŒæ—¶å®šä¹‰ä¸¤ä¸ªå˜é‡
 	int Input = 0;
 	int NewInput = 0;
 
@@ -10,22 +10,22 @@ int main() {
 	b = b++;
 	printf("%d\n", b);
 
-	// ¶ÁÕûÊı
+	// è¯»æ•´æ•°
 
-	printf("ÇëÊäÈëÕûÊı£º");
-	scanf_s("%d", &Input); // scanf À¨ºÅÀïÊäÈëµÄ¶«Î÷ ¼ÈÊÇ ĞèÒªÊäÈëµÄ¶«Î÷£¬Èô²»Í¬Ôò±¨´í
+	printf("è¯·è¾“å…¥æ•´æ•°ï¼š");
+	scanf_s("%d", &Input); // scanf æ‹¬å·é‡Œè¾“å…¥çš„ä¸œè¥¿ æ—¢æ˜¯ éœ€è¦è¾“å…¥çš„ä¸œè¥¿ï¼Œè‹¥ä¸åŒåˆ™æŠ¥é”™
 
 	NewInput = 10 - Input;
 	printf("NewInput == %d \n", NewInput);
 
 
-	// const¶¨Òå³£Á¿
+	// constå®šä¹‰å¸¸é‡
 	const int amount = 100;
 	printf("%d\n", amount);
 
-	// %d ÎªÕûĞÍÊı (double) £¬ %f Îª¸¡µãÊı (float)
+	// %d ä¸ºæ•´å‹æ•° (double) ï¼Œ %f ä¸ºæµ®ç‚¹æ•° (float)
 	float fnum1, fnum2;
-	printf("ÇëÊäÈë2¸öĞ¡Êı£º\n");
+	printf("è¯·è¾“å…¥2ä¸ªå°æ•°ï¼š\n");
 	scanf_s("%f\n%f", &fnum1, &fnum2);
 	float fnum = fnum1 + fnum2;
 	printf("fnumSum == %f\n", fnum);

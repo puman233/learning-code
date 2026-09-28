@@ -1,5 +1,5 @@
-#include<stdio.h>
-// ÒıÓÃËæ»úº¯Êı¿â
+ï»¿#include<stdio.h>
+// å¼•ç”¨éšæœºå‡½æ•°åº“
 #include<stdlib.h>
 #include<time.h>
 
@@ -7,30 +7,30 @@
 int main() {
 
 	/*
-		rand() ÕÙ»½Ëæ»úº¯Êı
-		srand(time(0)) Ê¹Ëæ»úÊıÄâÕæ
+		rand() å¬å”¤éšæœºå‡½æ•°
+		srand(time(0)) ä½¿éšæœºæ•°æ‹ŸçœŸ
 	*/
 
 	srand(time(0));
-	int comNumber = rand() % 100 + 1;	// % 100 + 1 Ä¿µÄÊÇÈ¡1~100ÄÚµÄÊı
+	int comNumber = rand() % 100 + 1;	// % 100 + 1 ç›®çš„æ˜¯å–1~100å†…çš„æ•°
 	int count = 0, playerInput;
 
 	do
 	{
-		printf("Çë²Â1~100¼äµÄÊı£º");
+		printf("è¯·çŒœ1~100é—´çš„æ•°ï¼š");
 		scanf_s("%d", &playerInput);
 		count++;
 		if (playerInput > comNumber)
 		{
-			printf("²Â ´ó ÁË\n");
+			printf("çŒœ å¤§ äº†\n");
 		}
 		else if (playerInput < comNumber)
 		{
-			printf("²Â Ğ¡ ÁË\n");
+			printf("çŒœ å° äº†\n");
 		}
 	} while (playerInput != comNumber);
 
-	printf("²Â¶Ô£¬´ğ°¸¼´Îª %d£¬ÓÃÁË %d ´Î\n", comNumber, count);
+	printf("çŒœå¯¹ï¼Œç­”æ¡ˆå³ä¸º %dï¼Œç”¨äº† %d æ¬¡\n", comNumber, count);
 
 	return 0;
 }

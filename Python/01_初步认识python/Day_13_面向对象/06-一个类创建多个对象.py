@@ -1,4 +1,4 @@
-class Washer():
+﻿class Washer():
     def wash(self):
         print("Washing the clothes!")
         print(self)

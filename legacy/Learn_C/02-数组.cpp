@@ -1,22 +1,22 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
-// ÉùÃ÷º¯Êı(ÔÚmainÇ°ÉùÃ÷º¯Êı£¬²Å¿ÉÔÚmainÖĞµ÷ÓÃ)
+// å£°æ˜å‡½æ•°(åœ¨mainå‰å£°æ˜å‡½æ•°ï¼Œæ‰å¯åœ¨mainä¸­è°ƒç”¨)
 int search(int key, int n[], int numlength);
 
 int main(void) {
-	// sizeof »ñÈ¡Êı×é³¤¶È
+	// sizeof è·å–æ•°ç»„é•¿åº¦
 	int a[] = { 2,3,4,5,1,9,3,0,24,543,24,12,24,34,45,6,5,76,7,76,86,7,876,876,86,13,3,76,8,0,98,75,4,8,2,1,1,2,3,3,4,55,1,6,7,342,8,90, };
 	printf("%zd\n", sizeof(a));
 	printf("%zd\n", sizeof(a[0]));
 
-	// ¼ÆËãÊı×é³¤¶È
+	// è®¡ç®—æ•°ç»„é•¿åº¦
 	const int length = sizeof(a) / sizeof(a[0]);
-	printf("Êı×é ÔªËØ¸öÊı£º%d\n", length);
+	printf("æ•°ç»„ å…ƒç´ ä¸ªæ•°ï¼š%d\n", length);
 
-	// Êı×é²»ÄÜ¼òµ¥¸³Öµ
-	// Ğè²ÉÓÃ±éÀú²ÅÄÜ½«Ò»¸öÊı×é¸³Öµ¸øÁíÒ»¸öÊı×é
+	// æ•°ç»„ä¸èƒ½ç®€å•èµ‹å€¼
+	// éœ€é‡‡ç”¨éå†æ‰èƒ½å°†ä¸€ä¸ªæ•°ç»„èµ‹å€¼ç»™å¦ä¸€ä¸ªæ•°ç»„
 	int b[length];
-	printf("Êı×é¸³Öµ½á¹û£º");
+	printf("æ•°ç»„èµ‹å€¼ç»“æœï¼š");
 	for (int i = 0; i < length; i++)
 	{
 		b[i] = a[i];
@@ -24,28 +24,28 @@ int main(void) {
 	}
 	printf("\n");
 
-	// ËÑË÷º¯Êı
+	// æœç´¢å‡½æ•°
 	printf("---------------\n");
 
 	int loc, numPlayer;
 
-	printf("ÇëÊäÈëÒ»¸öÊı×Ö£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°å­—ï¼š");
 	scanf_s("%d", &numPlayer);
 	loc = search(numPlayer, a, sizeof(a) / sizeof(a[0]));
 	if (loc != -1)
 	{
-		printf("%dÔÚ%dÎ»ÖÃÉÏ\n", numPlayer, loc);
-		printf("%dÔÚÊı×éµÄµÚ%d¸öÎ»ÖÃ\n", numPlayer, loc + 1);
+		printf("%dåœ¨%dä½ç½®ä¸Š\n", numPlayer, loc);
+		printf("%dåœ¨æ•°ç»„çš„ç¬¬%dä¸ªä½ç½®\n", numPlayer, loc + 1);
 	}
 	else
 	{
-		printf("%d²»´æÔÚ\n", numPlayer);
+		printf("%dä¸å­˜åœ¨\n", numPlayer);
 	}
 
 	return 0;
 }
 
-// ËÑË÷º¯Êı
+// æœç´¢å‡½æ•°
 int search(int key, int n[], int numlength) {
 	int ret = -1;
 	int u;

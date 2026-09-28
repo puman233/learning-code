@@ -1,4 +1,4 @@
-//#define _CRT_SECURE_NO_WARNINGS
+ï»¿//#define _CRT_SECURE_NO_WARNINGS
 //
 //#include <stdio.h>
 //
@@ -18,23 +18,23 @@
 //
 //}
 //
-///* put1.c -- ´òÓ¡×Ö·û´®£¬²»Ìí¼Ó\n */
-//void put1(const char* string)/* ²»»á¸Ä±ä×Ö·û´® */
+///* put1.c -- æ‰“å°å­—ç¬¦ä¸²ï¼Œä¸æ·»åŠ \n */
+//void put1(const char* string)/* ä¸ä¼šæ”¹å˜å­—ç¬¦ä¸² */
 //{
-//    while (*string != '\0') /* Óë *string µÈ¼Û */
-//		putchar(*string++); // ++ µÄÓÅÏÈ¼¶¸ßÓÚ *£¬ËùÒÔÏÈÈ¡ÖµÔÙ×ÔÔö
+//    while (*string != '\0') /* ä¸ *string ç­‰ä»· */
+//		putchar(*string++); // ++ çš„ä¼˜å…ˆçº§é«˜äº *ï¼Œæ‰€ä»¥å…ˆå–å€¼å†è‡ªå¢
 //}
 //
-///* put2.c -- ´òÓ¡Ò»¸ö×Ö·û´®£¬²¢Í³¼Æ´òÓ¡µÄ×Ö·ûÊı */
+///* put2.c -- æ‰“å°ä¸€ä¸ªå­—ç¬¦ä¸²ï¼Œå¹¶ç»Ÿè®¡æ‰“å°çš„å­—ç¬¦æ•° */
 //int put2(const char* string)
 //{
 //    int count = 0;
-//    while (*string)    /* ³£¹æÓÃ·¨ */
+//    while (*string)    /* å¸¸è§„ç”¨æ³• */
 //    {
 //        putchar(*string++);
 //        count++;
 //    }
-//    putchar('\n');    /* ²»Í³¼Æ»»ĞĞ·û */
+//    putchar('\n');    /* ä¸ç»Ÿè®¡æ¢è¡Œç¬¦ */
 //
 //    return(count);
 //}

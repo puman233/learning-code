@@ -12,7 +12,7 @@
 //    struct Node* next;
 //} Node;
 //
-//// ��ʼ��
+//// 初始化
 //Node *initList(){
 //    Node *head = (Node *)malloc(sizeof(Node));
 //
@@ -25,7 +25,7 @@
 //    return head;
 //}
 //
-//// �Ȼ�ȡβ�ڵ�
+//// 先获取尾节点
 //Node *get_tail(Node *L) {
 //    Node *p = L;
 //    while (p->next != NULL) {
@@ -34,7 +34,7 @@
 //    return p;
 //}
 //
-//// �����½ڵ�
+//// 创建新节点
 //Node *creat(Node *tail, Num num, Score score) {
 //    Node *p = (Node *)malloc(sizeof(Node));
 //    if (p == NULL) {
@@ -47,7 +47,7 @@
 //    return p;
 //}
 //
-//// �������
+//// 输出链表
 //void print(Node *L) {
 //    Node *p = L->next;
 //    if (p == NULL)
@@ -55,27 +55,27 @@
 //        printf("Empty list!\n");
 //		return;
 //    }
-//	while (p != NULL) { // ����ͷ�ڵ�
+//	while (p != NULL) { // 跳过头节点
 //        printf("%d %6.1f\n", p->num, p->score);
 //        p = p->next;
 //    }
 //    printf("\n");
 //}
 //
-//// ɾ��ָ��λ�õĽڵ�
+//// 删除指定位置的节点
 //int del(Node *L, int pos) {
-//	// ���λ���Ƿ�Ϸ�
+//	// 检查位置是否合法
 //    if (pos < 1 || L == NULL) {
 //        printf("Position is wrong,Delete failure!\n");
 //        return 0;
 //    }
 //
-//	Node* p = L;    // p ָ��ͷ�ڵ�
+//	Node* p = L;    // p 指向头节点
 //    int i;
 //
-//    // �ҵ�Ҫɾ���ڵ��ǰһ���ڵ�
+//    // 找到要删除节点的前一个节点
 //    for (i = 0; i < pos - 1; i++) {
-//		p = p->next;    // p ָ��� pos-1 ���ڵ�
+//		p = p->next;    // p 指向第 pos-1 个节点
 //        if (p == NULL) {
 //            printf("Position is wrong,Delete failure!\n");
 //            return 0;
@@ -90,14 +90,14 @@
 //
 //    //Node *q = p->next;
 //
-//    // p->next ����Ҫɾ���Ľڵ�
+//    // p->next 就是要删除的节点
 //    if (p->next == NULL) {
 //        printf("Position is wrong,Delete failure!\n");
 //        return 0;
 //    }
 //
-//	Node* q = p->next;  // q ��Ҫɾ���Ľڵ�
-//	p->next = q->next;  // ��ǰһ���ڵ�� next ָ��Ҫɾ���ڵ����һ���ڵ�
+//	Node* q = p->next;  // q 是要删除的节点
+//	p->next = q->next;  // 将前一个节点的 next 指向要删除节点的下一个节点
 //
 //    free(q);
 //
@@ -105,7 +105,7 @@
 //
 //}
 //
-//// �ͷ�����
+//// 释放链表
 //void freeList(Node *L) {
 //    if (L == NULL)
 //    {
@@ -134,19 +134,19 @@
 //
 //    Node *tail = get_tail(list);
 //    
-//	// �������ݣ�ֱ������ 0 0 Ϊֹ
+//	// 输入数据，直到输入 0 0 为止
 //	printf("Please input:\n");
 //    while (1) {
 //        int num;
 //        float score;
 //
 //        int result = scanf("%d%f", &num, &score);
-//		if (result != 2) {  // ��������Ƿ�ɹ���ȡ����ֵ
+//		if (result != 2) {  // 检查输入是否成功读取两个值
 //            printf("Input error!\n");
-//			while (getchar() != '\n' && getchar() != EOF); // ������뻺����
+//			while (getchar() != '\n' && getchar() != EOF); // 清空输入缓冲区
 //            continue;
 //        }
-//		if (num == 0 && score == 0) {   // ���� 0 0 �˳�
+//		if (num == 0 && score == 0) {   // 输入 0 0 退出
 //            if (count == 0) {
 //                printf("Empty list!\n");
 //            }
@@ -164,7 +164,7 @@
 //        }
 //    }
 //
-//	// �������Ϊ�գ�ֱ���˳�
+//	// 如果链表为空，直接退出
 //    if (count == 0)
 //    {
 //        printf("No data !\n");
@@ -175,18 +175,18 @@
 //    }
 //
 //
-//	// ����Ҫɾ���Ľڵ�λ��
-//	printf("������Ҫɾ���Ľڵ�λ�ã�\n");
+//	// 输入要删除的节点位置
+//	printf("请输入要删除的节点位置：\n");
 //    int pos = 0;
 //
 //    int result = scanf("%d", &pos);
 //
 //    int ch;
-//	while ((ch = getchar()) != '\n' && ch != EOF); // ������뻺����
+//	while ((ch = getchar()) != '\n' && ch != EOF); // 清空输入缓冲区
 //
 //    if (result != 1) {
 //        printf("Input error!\n");
-//		while (getchar() != '\n' && getchar() != EOF); // ������뻺����
+//		while (getchar() != '\n' && getchar() != EOF); // 清空输入缓冲区
 //        return -1;
 //    }
 //    else if (pos > 0 && pos <= count)
@@ -194,7 +194,7 @@
 //        int delResult = del(list, pos);
 //        if (delResult)
 //        {
-//            printf("ɾ���ɹ�\n");
+//            printf("删除成功\n");
 //        }
 //    }
 //    else
@@ -202,9 +202,9 @@
 //		printf("Position is wrong,Delete failure!\n");
 //    }
 //
-//	while ((ch = getchar()) != '\n' && ch != EOF); // ������뻺����
+//	while ((ch = getchar()) != '\n' && ch != EOF); // 清空输入缓冲区
 //
-//	// �������
+//	// 输出链表
 //    print(list);
 //
 //    freeList(list);

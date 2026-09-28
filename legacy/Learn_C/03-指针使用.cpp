@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 void swap(int* pa, int* pb);
 void minmax(int a[], int len, int* min, int* max);
@@ -11,14 +11,14 @@ int main(void) {
 	int a = 5;
 	int b = 10;
 
-	// ½»»» a ºÍ b µÄÖµ
+	// äº¤æ¢ a å’Œ b çš„å€¼
 	swap(&a, &b);
 
 	printf("a=%d, b=%d\n", a, b);
 
 	printf("\n***********************\n");
 
-	// ÇóÊı×éµÄ×îĞ¡ÖµºÍ×î´óÖµ
+	// æ±‚æ•°ç»„çš„æœ€å°å€¼å’Œæœ€å¤§å€¼
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10,11,12 };
 
 	int min, max;
@@ -31,14 +31,14 @@ int main(void) {
 	printf("\n***********************\n");
 
 	
-	// Ò°Ö¸Õë
+	// é‡æŒ‡é’ˆ
 	int i = 6;
 	//int* p;	error
 	int k;
 	int* p = &k;
 
 	k = 12;
-	//*p = 12;	// Î´³õÊ¼»¯µÄ¾Ö²¿±äÁ¿ p	±¨´í
+	//*p = 12;	// æœªåˆå§‹åŒ–çš„å±€éƒ¨å˜é‡ p	æŠ¥é”™
 
 	
 	printf("i=%d, k=%d, *p=%d\n", i, k, *p);
@@ -95,7 +95,7 @@ void g(int k) {
 
 void minmax(int arr[], int len, int *min, int *max) {
 	*min = *max = arr[0];
-	// ´ÓÊı×éµÄµÚ¶ş¸öÔªËØ¿ªÊ¼±éÀú
+	// ä»æ•°ç»„çš„ç¬¬äºŒä¸ªå…ƒç´ å¼€å§‹éå†
 	for (int i = 1; i < len; i++) {
 		if (arr[i] < *min) {
 			*min = arr[i];

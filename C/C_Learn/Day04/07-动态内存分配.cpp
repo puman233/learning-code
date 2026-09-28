@@ -1,20 +1,20 @@
-//#include<stdio.h>
+ï»¿//#include<stdio.h>
 //#include<stdlib.h>
 //
 //int main() {
 //
 //	int num;
 //	int* a;
-//	printf("ÇëÊäÈëÊıÁ¿: ");
+//	printf("è¯·è¾“å…¥æ•°é‡: ");
 //	scanf_s("%d", &num);
 //
 //	/*
 //	* 
 //		void* malloc(size_t size);
 //		
-//		malloc ÉêÇë¿Õ¼äµÄ´óĞ¡ÊÇÒÔ ×Ö½Ú Îªµ¥Î»
-//		·µ»ØµÄ½á¹ûÊÇ void* 
-//		ĞèÒªÀàĞÍ×ª»»³É×Ô¼ºĞèÒªµÄÀàĞÍ
+//		malloc ç”³è¯·ç©ºé—´çš„å¤§å°æ˜¯ä»¥ å­—èŠ‚ ä¸ºå•ä½
+//		è¿”å›çš„ç»“æœæ˜¯ void* 
+//		éœ€è¦ç±»å‹è½¬æ¢æˆè‡ªå·±éœ€è¦çš„ç±»å‹
 //			(int*)malloc(n * sizeof(int));
 //	*/
 //	//int a[num];	// error
@@ -37,7 +37,7 @@
 //	while ((p = malloc(100 * 1024 * 1024))) {
 //		cnt++;
 //	}
-//	printf("·ÖÅäÁË%d00MBµÄ¿Õ¼ä\n", cnt);
+//	printf("åˆ†é…äº†%d00MBçš„ç©ºé—´\n", cnt);
 //
 //
 //	free(a);

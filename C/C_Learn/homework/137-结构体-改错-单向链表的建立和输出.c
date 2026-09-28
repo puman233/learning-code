@@ -10,21 +10,21 @@
 //int main(void)
 //{
 //    struct Node *head, *tail, *p;
-//    // head Ê¼ÖÕÖ¸ÏòµÚÒ»¸ö½Úµã
-//    // tail Ê¼ÖÕÖ¸Ïò×îºóÒ»¸ö½Úµã ¼´ NULL
+//    // head å§‹ç»ˆæŒ‡å‘ç¬¬ä¸€ä¸ªèŠ‚ç‚¹
+//    // tail å§‹ç»ˆæŒ‡å‘æœ€åŽä¸€ä¸ªèŠ‚ç‚¹ å³ NULL
 //    int num;
 //    int size = sizeof(struct Node);
 //
-//    // ³õÊ¼»¯Á´±í
+//    // åˆå§‹åŒ–é“¾è¡¨
 //    head=tail=NULL;
 //
 //    printf("Please input:\n");
 //    scanf("%d", &num);
 //
 //    /*creat the single linked list*/
-//    while(num != 0)     // ÊäÈë0ÍË³ö
+//    while(num != 0)     // è¾“å…¥0é€€å‡º
 //    {
-//        p = (struct Node *) malloc(size);   // ²úÉúÒ»¸öÐÂ½Úµã
+//        p = (struct Node *) malloc(size);   // äº§ç”Ÿä¸€ä¸ªæ–°èŠ‚ç‚¹
 //        // p = malloc(sizeof(struct Node));
 //        p->num = num;
 //        p->next = NULL;

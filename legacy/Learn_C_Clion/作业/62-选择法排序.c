@@ -31,16 +31,16 @@ int main() {
 
 	int temp, nc = count, mincount = 0;
 
-	// Ñ¡ÔñÅÅĞò
+	// é€‰æ‹©æ’åº
 	for (i = 0; i < nc-1; i++)
 	{
 		mincount = i;
-		// ´Ó s[1] ¿ªÊ¼ÅĞ¶Ï´óĞ¡
+		// ä» s[1] å¼€å§‹åˆ¤æ–­å¤§å°
 		for (j = i + 1; j < nc; j++)
 		{
 			if (s[j] < s[mincount])
 			{
-				// ¼ÇÂ¼ÏÂ±ê
+				// è®°å½•ä¸‹æ ‡
 				mincount = j;
 			}
 		}

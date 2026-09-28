@@ -7,10 +7,10 @@
 int* getAverages(int* nums, int numsSize, int k, int* returnSize) {
     *returnSize = numsSize;
     int *avgs = malloc(*returnSize * sizeof(int));
-    long long int sum = 0;  // 避免数据过大溢出
+    long long int sum = 0;  // 閬垮厤鏁版嵁杩囧ぇ婧㈠嚭
     int i;
 
-    // 如果k大于数组长度，则全为-1
+    // 濡傛灉k澶т簬鏁扮粍闀垮害锛屽垯鍏ㄤ负-1
     if (2 * k + 1 > numsSize) {
         for (i = 0; i < numsSize; i++) {
             avgs[i] = -1;

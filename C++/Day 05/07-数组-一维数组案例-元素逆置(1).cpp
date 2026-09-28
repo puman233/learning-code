@@ -1,33 +1,33 @@
-//#include<iostream>
+ï»¿//#include<iostream>
 //using namespace std;
 //
 //int main() {
-//	//1.´´½¨Êý×é
+//	//1.åˆ›å»ºæ•°ç»„
 //	int arr[5] = { 1,3,2,5,4 };
 //
-//	cout << "Êý×éÖ®Ç°µÄ½á¹û£º" << endl;
+//	cout << "æ•°ç»„ä¹‹å‰çš„ç»“æžœï¼š" << endl;
 //
 //	for (int i = 0; i < 5; i++) {
 //		cout << arr[i] << endl;
 //	}
 //
-//	int start = 0;	//ÆðÊ¼ÏÂ±ê
-//	int end = sizeof(arr) / sizeof(arr[0]) - 1;	//½áÊøÏÂ±ê
+//	int start = 0;	//èµ·å§‹ä¸‹æ ‡
+//	int end = sizeof(arr) / sizeof(arr[0]) - 1;	//ç»“æŸä¸‹æ ‡
 //
 //	while (start < end)
 //	{
-//		//ÊµÏÖÔªËØ»¥»»
+//		//å®žçŽ°å…ƒç´ äº’æ¢
 //		int temp = arr[start];
 //		arr[start] = arr[end];
 //		arr[end] = temp;
 //
-//		//ÏÂ±ê¸üÐÂ
+//		//ä¸‹æ ‡æ›´æ–°
 //		start++;
 //		end--;
 //	}
 //
-//	//3.´òÓ¡µ¹ÖÃÔª×éÊý¾Ý
-//	cout << "Êý¾ÝÔª×éÄæÖÃºó£º" << endl;
+//	//3.æ‰“å°å€’ç½®å…ƒç»„æ•°æ®
+//	cout << "æ•°æ®å…ƒç»„é€†ç½®åŽï¼š" << endl;
 //	for (int i = 0; i < 5; i++) {
 //		cout << arr[i] << endl;
 //	}

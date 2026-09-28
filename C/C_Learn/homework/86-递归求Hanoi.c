@@ -5,20 +5,20 @@
 //#include <stdio.h>
 //
 //void move(char getone, char putone) {
-//    // Íê³É´òÓ¡¹¤×÷
+//    // å®Œæˆæ‰“å°å·¥ä½œ
 //    printf("%c--->%c\n", getone, putone);
 //}
 //
 //void hanoi(int n, char one, char two, char three) {
-//    // µİ¹éÍê³ÉÅÌ×ÓÒÆ¶¯
+//    // é€’å½’å®Œæˆç›˜å­ç§»åŠ¨
 //    if (n == 1) {
 //        move(one, three);
 //    } else {
-//        // °Ñ n-1 ¸öÅÌ×Ó´Ó A ¡ú B
+//        // æŠŠ n-1 ä¸ªç›˜å­ä» A â†’ B
 //        hanoi(n - 1, one, three, two);
-//        // °Ñ ×î´óÄÇÒ»¸öÅÌ×Ó´Ó A ¡ú C
+//        // æŠŠ æœ€å¤§é‚£ä¸€ä¸ªç›˜å­ä» A â†’ C
 //        printf("%c--->%c\n", one, three);
-//        // °Ñ n-1 ¸öÅÌ×Ó´Ó B ¡ú C
+//        // æŠŠ n-1 ä¸ªç›˜å­ä» B â†’ C
 //        hanoi(n - 1, two, one, three);
 //    }
 //}

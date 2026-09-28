@@ -1,31 +1,31 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main() {
-	// ¹¹ÔìËØÊı±í
+	// æ„é€ ç´ æ•°è¡¨
 	
 	//const int maxNumber = 25;
 	const int maxNumber = 3000;
-	int isPrime[maxNumber];	// ËØÊı±ê¼ÇÊı×é
+	int isPrime[maxNumber];	// ç´ æ•°æ ‡è®°æ•°ç»„
 	int i, x;
 
-	// ³õÊ¼»¯£º¼ÙÉèËùÓĞÊı¶¼ÊÇËØÊı
+	// åˆå§‹åŒ–ï¼šå‡è®¾æ‰€æœ‰æ•°éƒ½æ˜¯ç´ æ•°
 	for (i = 0; i < maxNumber; i++)
 	{
-		isPrime[i] = 1;	// Ä¬ÈÏ ÊÇËØÊı
+		isPrime[i] = 1;	// é»˜è®¤ æ˜¯ç´ æ•°
 	}
 
-	// °£À­ÍĞË¹ÌØÄáÉ¸·¨ ºËĞÄ
+	// åŸƒæ‹‰æ‰˜æ–¯ç‰¹å°¼ç­›æ³• æ ¸å¿ƒ
 	for (x = 2; x < maxNumber; x++)
 	{
-		if (isPrime[x])	// Èç¹ûxÊÇËØÊı
+		if (isPrime[x])	// å¦‚æœxæ˜¯ç´ æ•°
 		{
-			// ±ê¼ÇxµÄËùÓĞ±¶ÊıÎª·ÇËØÊı
+			// æ ‡è®°xçš„æ‰€æœ‰å€æ•°ä¸ºéç´ æ•°
 			for (i = 2; i*x < maxNumber; i++) {
-				isPrime[i * x] = 0;	 // ±ê¼ÇÎª ·ÇËØÊı
+				isPrime[i * x] = 0;	 // æ ‡è®°ä¸º éç´ æ•°
 			}
 		}
 	}
-	// Êä³öËùÓĞËØÊı
+	// è¾“å‡ºæ‰€æœ‰ç´ æ•°
 	for (i = 2; i < maxNumber; i++)
 	{
 		if (isPrime[i]) {

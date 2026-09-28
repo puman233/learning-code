@@ -4,7 +4,7 @@
 //int main() {
 //
 //	/*
-//		ртобн╙ Basic ╟Ф╠╬
+//		Д╩╔Д╦▀Д╦╨ Basic Г┴┬Ф°╛
 //	*/
 //
 //	int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10;
@@ -57,7 +57,7 @@
 //
 //	/*
 //
-//		ртобн╙ Pro ╟Ф╠╬
+//		Д╩╔Д╦▀Д╦╨ Pro Г┴┬Ф°╛
 //
 //	char isbn[14];
 //	scanf_s("%s", isbn, (unsigned)__crt_countof(isbn));

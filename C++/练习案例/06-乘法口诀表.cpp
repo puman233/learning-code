@@ -1,11 +1,11 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 int main() {
 
-	//³Ë·¨¿Ú¾÷±í
+	//ä¹˜æ³•å£è¯€è¡¨
 
-	//´òÓ¡ĞĞÊı
+	//æ‰“å°è¡Œæ•°
 	for (int i = 1; i < 10; i++)
 	{
 		//cout << i << endl;
@@ -13,6 +13,6 @@ int main() {
 		{
 			cout << j << " * " << i << " = " << j * i << "   ";
 		}
-		cout << endl;	//»»ĞĞ
+		cout << endl;	//æ¢è¡Œ
 	}
 }

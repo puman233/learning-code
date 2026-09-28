@@ -35,13 +35,13 @@
 //
 //int main(int argc, char *argv[]) {
 //
-//    // n ¸öÈË
+//    // n ä¸ªäºº
 //    int n;
 //
 //    printf("Input number of person: n= ");
 //    scanf("%d", &n);
 //
-//    // ³õÊ¼»¯Êı×é
+//    // åˆå§‹åŒ–æ•°ç»„
 //    int i;
 //    int *a = (int*)malloc(n * sizeof(int));
 //    for (i = 0; i < n; i++) {

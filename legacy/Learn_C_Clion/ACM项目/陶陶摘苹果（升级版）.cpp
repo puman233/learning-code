@@ -1,19 +1,19 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 
 /*
-	������������
+	洛谷是真的阴吧
 */
 typedef struct{
-	// ƻ���ĸ߶� ժƻ����������
+	// 苹果的高度 摘苹果所需力气
 	int xi, yi;
 } Apple;
 
 int main() {
 	/*
-		��������n�� ʣ��������s
-		���Ӹߣ�a�� ����ֱ����󳤶� b
-		ժһ��ƻ����Ҫ������yi
-		ƻ���߶ȣ�xi
+		果子数：n， 剩余力气：s
+		椅子高：a， 手伸直的最大长度 b
+		摘一个苹果需要力气：yi
+		苹果高度：xi
 	*/ 
 	int n, s;
 	int a, b;
@@ -23,17 +23,17 @@ int main() {
 	int count = 0;
 	Apple apple[5060];
 
-	// ���ժƻ��
+	// 最多摘苹果
 	int maxapple = 0;
 
-	//printf("����ƻ����������\n");
+	//printf("输入苹果数和力气\n");
 	scanf_s("%d %d", &n, &s);
 	/*if (ntemp <= 5000 && s <= 1000)
 	{
 		n = ntemp;
 		s = stemp;
 	}*/
-	//printf("�������Ӹ߶Ⱥ�����ֱ��󳤶�\n");
+	//printf("输入椅子高度和手伸直最大长度\n");
 	scanf_s("%d %d", &a, &b);
 	/*if (atemp <= 50 && btemp <= 200)
 	{
@@ -41,8 +41,8 @@ int main() {
 		b = btemp;
 	}*/
 
-	//printf("����ƻ���߶Ⱥ�ժһ��ƻ�����������\n");
-	// ¼������
+	//printf("输入苹果高度和摘一个苹果所需的力气\n");
+	// 录入数据
 	for ( i = 0; i < n; i++)
 	{
 		scanf_s("%d %d", &apple[i].xi, &apple[i].yi);
@@ -53,14 +53,14 @@ int main() {
 		}
 	}
 
-	// ɸѡƻ��
-	Apple valueApple[5060];	// �����������ſ�ժƻ��
+	// 筛选苹果
+	Apple valueApple[5060];	// 定义新数组存放可摘苹果
 	int valueCount = 0;
 
 	for (i = 0; i < n; i++)
 	{
 		if (a + b >= apple[i].xi) {
-			// ��ſ�ժ��ƻ����������
+			// 存放可摘的苹果于新数组
 			valueApple[valueCount] = apple[i];
 			valueCount++;
 		}
@@ -73,16 +73,16 @@ int main() {
 	//	if (a + b >= xi[x])
 	//	{
 	//		apple[count] = yi[x];
-	//		count++;	// ɸѡ����ժ��ƻ��
+	//		count++;	// 筛选出可摘的苹果
 	//	}
 	//}
 
-	// �Կ�ժƻ����������С��������
+	// 对可摘苹果按力气从小到大排序
 	int j, k;
 	for (k = 0; k < valueCount - 1; k++) {
 		for (j = k + 1; j < valueCount; j++) {
 			if (valueApple[k].yi > valueApple[j].yi) {
-				// ����˳��
+				// 交换顺序
 				Apple temp = valueApple[k];
 				valueApple[k] = valueApple[j];
 				valueApple[j] = temp;
@@ -90,7 +90,7 @@ int main() {
 		}
 	}
 
-	// �������ժƻ����
+	// 计算出可摘苹果数
 	int y;
 	for (y = 0; y < valueCount; y++)
 	{

@@ -1,27 +1,27 @@
-//
+﻿//
 //# define _CRT_SECURE_NO_WARNINGS
 //#include<string.h>
 //#include <stdlib.h>
 //# include <stdio.h>
 //
 ///*
-//���˳������������º�������������ʼ�������ӣ����룬ɾ����
+//完成顺序表操作的如下函数：建立，初始化，增加，插入，删除。
 //
-//����Ҫ�����£�
+//具体要求如下：
 //
-//1������һ˳������ͣ�������˳�����
-//2�����̲���˳����Ľ�������ʼ�������롢ɾ���Ⱥ���ʵ�֡�
-//3��˳����ܹ��洢10��ѧ���Ļ�����Ϣ������������ѧ�źͳɼ�����
-//4���������������û�Ҫ��Ը���˳����������ʡ�
-//5��ÿ�β���֮ǰҪ����ȷ��˵����������Ҫ������������
-//6������˳����Ĳ��롢ɾ�������ҵ�ʱ��Ϳռ临�Ӷȡ�
+//1．定义一顺序表类型，并定义顺序表。
+//2．将教材中顺序表的建立、初始化、插入、删除等函数实现。
+//3．顺序表能够存储10名学生的基本信息（包括姓名、学号和成绩）。
+//4．由主函数按照用户要求对各个顺序表操作访问。
+//5．每次操作之前要有明确的说明，操作后要输出操作结果。
+//6．分析顺序表的插入、删除、查找的时间和空间复杂度。
 //
-//�����ǲο����룬�ؼ���������ף���˼�����䡣
+//下面是参考代码，关键代码段留白，请思考补充。
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <string.h>
 //
-//// ����ѧ����Ϣ�ṹ��
+//// 定义学生信息结构体
 //typedef struct Student {
 //    char name[10];
 //    char id[9];
@@ -29,7 +29,7 @@
 //} Student;
 //
 //*/
-//// �洢10��ѧ��
+//// 存储10名学生
 //#define MAXSIZE 10
 //
 //typedef struct Student {
@@ -43,12 +43,12 @@
 //    Student data[MAXSIZE];
 //    int length;
 //} SeqList;
-//// ��ʼ��
+//// 初始化
 //void initList(SeqList* L) {
 //    L->length = 0;
 //}
 //
-//// ����
+//// 遍历
 //void ListElement(SeqList *L) {
 //
 //    if (L->length == 0)
@@ -61,7 +61,7 @@
 //    }
 //    else
 //    {
-//        printf("%-10s\t%-8s\t%-8s\n", "ѧ��", "����", "�ɼ�");
+//        printf("%-10s\t%-8s\t%-8s\n", "学号", "姓名", "成绩");
 //
 //        for (int i = 0; i < L->length; i++)
 //        {
@@ -71,7 +71,7 @@
 //    }
 //}
 //
-//// ��
+//// 增
 //int addElement(SeqList* L, const char *name, const char *id, int score) {
 //    if (L->length >= MAXSIZE)
 //    {
@@ -86,7 +86,7 @@
 //}
 //
 //
-//// ��
+//// 插
 //int insertElement(SeqList* L, const char* name, const char* id, int score, int pos) {
 //
 //    if (L->length >= MAXSIZE)
@@ -99,7 +99,7 @@
 //        printf("Invalid\n");
 //        return 0;
 //    }
-//    // β��
+//    // 尾插
 //    if (pos == L->length + 1)
 //    {
 //        addElement(L, name, id, score);
@@ -107,7 +107,7 @@
 //    }
 //    else if (pos <= L->length)
 //    {
-//        // ��Ų
+//        // 后挪
 //        for (int i = L->length; i >= pos; i--)
 //        {
 //            strcpy(L->data[i].name, L->data[i - 1].name);
@@ -123,7 +123,7 @@
 //    return 0;
 //}
 //
-//// ɾ
+//// 删
 //int delElement(SeqList* L, int pos) {
 //
 //    if (L->length == 0)
@@ -137,7 +137,7 @@
 //        return 0;
 //    }
 //
-//    // ǰŲ
+//    // 前挪
 //    for (int i = pos; i < L->length; i++)
 //    {
 //        strcpy(L->data[i - 1].name, L->data[i].name);
@@ -150,7 +150,7 @@
 //
 //}
 //
-//// ��(name or id)
+//// 查(name or id)
 //int findElement(SeqList* L, const char* search) {
 //
 //    if (L->length == 0)
@@ -171,10 +171,10 @@
 //
 //int main(void) {
 //
-//    // ��ʼ��
+//    // 初始化
 //    SeqList StuList;
 //    initList(&StuList);
-//    printf("��ʼ���ɹ�\n");
+//    printf("初始化成功\n");
 //
 //    // test data
 //    char dataName[3][50] = {
@@ -187,38 +187,38 @@
 //        12, 24, 48
 //    };
 //
-//    // ��
+//    // 增
 //    for (int i = 0; i < 3; i++)
 //    {
 //        addElement(&StuList, dataName[i], dataId[i], dataScore[i]);
 //    }
 //    addElement(&StuList, "Miku", "O1", 16);
 //    // output:
-//    printf("��ʼ�������£�\n");
+//    printf("初始数据如下：\n");
 //    ListElement(&StuList);
 //
-//    // ��
+//    // 插
 //    insertElement(&StuList, "REJ", "004", 99, 2);
 //    ListElement(&StuList);
 //    // error data
-//    printf("����λ�ô���\n");
+//    printf("插入位置错误：\n");
 //    insertElement(&StuList, "error", "000", 10, 20);
-//    printf("���䣺\n");
+//    printf("不变：\n");
 //    ListElement(&StuList);
 //
-//    // ɾ
-//    printf("ɾ����3�����ݺ�\n");
+//    // 删
+//    printf("删除第3行数据后：\n");
 //    delElement(&StuList, 3);
 //    ListElement(&StuList);
-//    printf("ɾ����99�����ݺ�\n");
+//    printf("删除第99行数据后：\n");
 //    delElement(&StuList, 99);
 //    ListElement(&StuList);
 //
-//    // ��
-//    printf("��Alice����λ�ã�{ %d }��\n", findElement(&StuList, "Alice"));
-//    printf("��NULL����λ�ã�{ %d }��\n", findElement(&StuList, "NULL"));
-//    printf("��001����λ�ã�{ %d }��\n", findElement(&StuList, "001"));
-//    printf("��O1����λ�ã�{ %d }��\n", findElement(&StuList, "O1"));
+//    // 茶
+//    printf("「Alice」的位置：{ %d }行\n", findElement(&StuList, "Alice"));
+//    printf("「NULL」的位置：{ %d }行\n", findElement(&StuList, "NULL"));
+//    printf("「001」的位置：{ %d }行\n", findElement(&StuList, "001"));
+//    printf("「O1」的位置：{ %d }行\n", findElement(&StuList, "O1"));
 //    ListElement(&StuList);
 //
 //	return 0;

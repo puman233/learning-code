@@ -1,10 +1,10 @@
-//#include<iostream>
+ï»¿//#include<iostream>
 //using namespace std;
 //
 //int main() {
 //
-//	//forÑ­»·
-//	//´ÓÊı×Ö 0 ~ 9´òÓ¡
+//	//forÄÅâ•—Ä˜
+//	//â”¤Ä—â•©Â²Å«Å³ 0 ~ 9â”¤â€œÄ—Äª
 //
 //	for (int i = 0; i < 10; i++)
 //	{

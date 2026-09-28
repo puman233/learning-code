@@ -1,4 +1,4 @@
-//#include<stdio.h>
+ï»¿//#include<stdio.h>
 //
 //int main() {
 //
@@ -7,9 +7,9 @@
 //
 //	int i = 1;
 //
-//	while (i <= n) {	// ÐÐ
+//	while (i <= n) {	// ÄÄ
 //		int j = 1;
-//		while (j <= i) {	// ÁÐ
+//		while (j <= i) {	// ÃÄ
 //			printf("%d*%d=%d", j, i, i * j);
 //			printf("\t");
 //			/*if (i*j <10)

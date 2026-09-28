@@ -1,7 +1,7 @@
 /*
  * @lc app=leetcode.cn id=2 lang=c
  *
- * [2] 两数相加
+ * [2] 涓ゆ暟鐩稿姞
  */
 
 // @lc code=start

@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void seq(int num[], int nSize) {
     int i,j;

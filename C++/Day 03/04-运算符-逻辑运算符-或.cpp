@@ -1,10 +1,10 @@
-//#include<iostream>
+ï»¿//#include<iostream>
 //using namespace std;
 //
 //int main() {
 //	
-//	//Âß¼­»ò
-//	//Í¬¼ÙÎª¼Ù£¬ÆäÓàÎªÕæ
+//	//é€»è¾‘æˆ–
+//	//åŒå‡ä¸ºå‡ï¼Œå…¶ä½™ä¸ºçœŸ
 //
 //	int a = 10;
 //	int b = 10;
