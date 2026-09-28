@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "title": "MyGO角色配置",
+    "description": "剧情角色数据，包含角色标识、名称、头像路径和主题色",
+    "version": "1.0.0"
+  },
+  "characters": [
+    {
+      "id": "anon",
+      "name": "爱音",
+      "avatar": "anon.png",
+      "description": "千早爱音，吉他手。性格开朗活泼，总是充满干劲但有点冒失。",
+      "themeColor": "#FF6B9D"
+    },
+    {
+      "id": "tomori",
+      "name": "灯",
+      "avatar": "tomori.png",
+      "description": "高松灯，主唱。性格内向沉默，不擅长表达自己的情感。",
+      "themeColor": "#9B59B6"
+    },
+    {
+      "id": "soyo",
+      "name": "素世",
+      "avatar": "soyo.png",
+      "description": "长崎素世，贝斯手。温柔成熟的大姐姐，经常照顾其他人。",
+      "themeColor": "#4ECDC4"
+    },
+    {
+      "id": "rikki",
+      "name": "立希",
+      "avatar": "rikki.png",
+      "description": "椎名立希，鼓手。认真负责，对音乐要求严格，很关心灯。",
+      "themeColor": "#2196F3"
+    },
+    {
+      "id": "rana",
+      "name": "乐奈",
+      "avatar": "rana.png",
+      "description": "要乐奈，吉他手。自由奔放，我行我素，最喜欢芭菲。",
+      "themeColor": "#FFA726"
+    },
+    {
+      "id": "sakiko",
+      "name": "祥子",
+      "avatar": "sakiko.png",
+      "description": "丰川祥子，前键盘手。才华横溢的少女，有着不为人知的一面。",
+      "themeColor": "#E74C3C"
+    }
+  ]
+}

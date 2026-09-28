@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Day01">
+      <UniqueIdentifier>{132b2a67-5343-4f4d-9c9a-635bb1d4438d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\练习">
+      <UniqueIdentifier>{f8fcb42d-848a-486c-9037-d8c2e53dacda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Day02">
+      <UniqueIdentifier>{edf584f9-9d5e-4bce-9658-bb6ac28c29e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Day03">
+      <UniqueIdentifier>{78ebac96-0a47-4370-a2cc-98b7e47f2701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ACM项目">
+      <UniqueIdentifier>{fd6a7004-db07-4db1-9414-e62248d629c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\作业">
+      <UniqueIdentifier>{d128cfef-5ca3-4cf7-8e30-a51dec3b51ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Day04">
+      <UniqueIdentifier>{ee693ec5-6af4-4570-86f9-f1dd8264cb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Day05">
+      <UniqueIdentifier>{4cf9df4e-0ea4-47a5-b657-4c3cd2a89b79}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="02-表达式&amp;赋值.cpp">
+      <Filter>源文件\Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="01-变量&amp;常量&amp;浮点数.cpp">
+      <Filter>源文件\Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="03-条件判断.cpp">
+      <Filter>源文件\Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="04-循环.cpp">
+      <Filter>源文件\Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="陶陶摘苹果（升级版）.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="01-猜拳游戏.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="02-求平均数.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="03-整数求逆.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="01-循环.cpp">
+      <Filter>源文件\Day02</Filter>
+    </ClCompile>
+    <ClCompile Include="04-求最大公约数.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="01-数组.cpp">
+      <Filter>源文件\Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="02-数组.cpp">
+      <Filter>源文件\Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="05-素数数组.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="03-二维数组.cpp">
+      <Filter>源文件\Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="货仓选址.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="商店.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="纪念品分组.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="混合牛奶.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="01-吃糖果.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="02-小鱼游泳.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="03-分割5位整数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="04-计算表达式.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="05-利息.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="06-求和&amp;乘积&amp;平均数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="07-圆柱体.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="08-求圆.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="Sand Castle S.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="06-水仙花数.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="07-九九乘法表.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="08-统计素数求和.cpp">
+      <Filter>源文件\练习</Filter>
+    </ClCompile>
+    <ClCompile Include="02-数据类型.cpp">
+      <Filter>源文件\Day02</Filter>
+    </ClCompile>
+    <ClCompile Include="Buying Feed, II S%28error%29.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="09-能否被5整除.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="11-分段函数2.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="12-改错-乘除运算.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="13-改错-嵌套.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="14-改错-选择分段.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="15-判断整数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="16-洛谷系统.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="17-3整数排序.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="10-分段函数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="18-判断回文数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="19-判断三角形形状.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="20-计算分段函数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="21-计算个人所得税.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="22-ISBN号码.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="23-显示某年某月的天数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="24-改写if_else语句.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="宝箱.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="区间最大和.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="双十一.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="数对.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="排列排序.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="求区间和.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="25-改错-信息多次重复显示.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="26-改错-计算及格人数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="27-改错-自由下落问题.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="28-改错-求平方和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="29-改错-打印不超过100的圆面积.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="30-输入n求和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="31-求个数&amp;和&amp;平均值.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="32-求π的近似值.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="33-兔子数列.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="34-判断是否为素数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="35-破译密码.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="非常男女计划%28error%29.cpp">
+      <Filter>源文件\ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="01-取地址.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="02-指针.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="36-输入m&amp;n递增&amp;递减.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="37-猴子吃桃.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="38-辗转相除法求最大公约数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="39-求一批正整数的奇数和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="40-输出自然数和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="41-计算分数和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="42-求前n项和-分母3.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="43-100人民币换零.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="44-判断回文数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="45-九九乘法表.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="46-求组合数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="47-求aaan的和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="48-统计各字符个数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="49-柱状图打印.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="50-求班级平均分.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="51-求两整数间素数个数&amp;和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="52-求2~n的素数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="53-找出给定正整数内的完数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="03-指针使用.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="04-指针&amp;数组.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="05-指针&amp;const.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="06-指针运算.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="07-动态内存分配.cpp">
+      <Filter>源文件\Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="01-字符串.cpp">
+      <Filter>源文件\Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="02-字符串常量.cpp">
+      <Filter>源文件\Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="54-冒泡排序.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="55-二维数组初始化数据.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="56-统计二维数组大于n的元素和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="57-二维数组转置.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="58-二维数组求最大值.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="59-字符初始化.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="60-找三个字符串中的最大字符串.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="03-字符串输入输出.cpp">
+      <Filter>源文件\Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="04-字符串数组.cpp">
+      <Filter>源文件\Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="61-从长整数从高位分割.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="66-求一组整数的最大值及其下标.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="65-出现一次的数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="63-插入一个数到有序序列的正确位置.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="64-停车费问题.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="62-选择法排序.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="67-重排整数各位数组成最大数和最小数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="68-最值&amp;平均值&amp;排序.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="70-判断是否为上三角矩阵.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="69-求n阶方阵主对角线元素之和.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="71-打印杨辉三角.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="72-打印金字塔杨辉三角.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="73-查找二维数组的鞍点.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="74-输入两个不包含空格的字符串.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="75-统计一篇文章每行各类字符的个数.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="11.1练习getchar.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="11.2-练习熟悉大小写字母ASCII.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="76-用对应字母替换掉字符串中的大写字母.c">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="77.cpp">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

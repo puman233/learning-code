@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ACM项目">
+      <UniqueIdentifier>{6CCECEA7-E995-4B86-8F0C-657B46D33BDD}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day01">
+      <UniqueIdentifier>{232A2E27-435B-4666-B1D1-B8A6A417D8ED}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day02">
+      <UniqueIdentifier>{F81D0D4F-A1FF-4A14-8779-24E88719405B}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day03">
+      <UniqueIdentifier>{B5900BC4-DDB9-4025-B4D3-3635D9F7BFAB}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day04">
+      <UniqueIdentifier>{40EBE66E-4D64-4A08-951E-A6FFD28530A4}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day05">
+      <UniqueIdentifier>{162C8E44-041A-490B-80BC-7EAD9D589801}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Day06">
+      <UniqueIdentifier>{8AAE47D0-ECF0-4203-8E51-D7998B252CB4}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="考试">
+      <UniqueIdentifier>{16249AD2-8334-42D1-9157-9F125B384A7A}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="练习">
+      <UniqueIdentifier>{DA94DF7D-DB41-4782-B888-47F50CE29B14}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="作业">
+      <UniqueIdentifier>{4CE718D1-3FAF-449B-B5B8-195F169A37BE}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="作业\149~157">
+      <UniqueIdentifier>{1DAFB565-213F-4BDD-A615-93B919899CD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACM项目\Sand Castle S.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\宝箱.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\非常男女计划(error).cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\混合牛奶.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\货仓选址.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\纪念品分组.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\排列排序.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\求区间和.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\区间最大和.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\商店.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\数对.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\双十一.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="ACM项目\陶陶摘苹果（升级版）.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="Day01\01-变量&amp;常量&amp;浮点数.cpp">
+      <Filter>Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="Day01\02-表达式&amp;赋值.cpp">
+      <Filter>Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="Day01\03-条件判断.cpp">
+      <Filter>Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="Day01\04-循环.cpp">
+      <Filter>Day01</Filter>
+    </ClCompile>
+    <ClCompile Include="Day02\01-循环.cpp">
+      <Filter>Day02</Filter>
+    </ClCompile>
+    <ClCompile Include="Day02\02-数据类型.cpp">
+      <Filter>Day02</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03\01-数组.cpp">
+      <Filter>Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03\02-数组.cpp">
+      <Filter>Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03\03-二维数组-棋盘.cpp">
+      <Filter>Day03</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\01-取地址.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\02-指针.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\03-指针使用.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\04-指针&amp;数组.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\05-指针&amp;const.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\06-指针运算.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\07-动态内存分配.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\08-结构体.cpp">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\09-类型定义.c">
+      <Filter>Day04</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\01-字符串.cpp">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\02-字符串常量.cpp">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\03-字符串输入输出.cpp">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\04-字符串数组.cpp">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\05-单个字符输入输出.cpp">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\07-字符串函数.c">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\08-枚举.c">
+      <Filter>Day05</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\01-内存.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\02-算法分析.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\03-链表-头插法.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\04-链表-尾插法.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\05-链表-插入&amp;删除&amp;获取长度&amp;释放链表.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\06-顺序表-增删改查.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="Day06\07-顺序表-动态分配内存.cpp">
+      <Filter>Day06</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\01.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\02.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\03.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\04.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\05.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\06.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\07.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\08.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\09.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\10.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\11.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\12.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\13.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\14.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\15.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\16.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\17.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\18.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\19.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\20.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\21.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\22.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\23.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\24.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="考试\25.c">
+      <Filter>考试</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\01-猜拳游戏.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\02-求平均数.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\03-整数求逆.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\04-求最大公约数.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\05-素数数组.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\06-水仙花数.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\07-九九乘法表.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="练习\08-统计素数求和.cpp">
+      <Filter>练习</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\01-吃糖果.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\02-小鱼游泳.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\03-分割5位整数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\04-计算表达式.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\05-利息.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\06-求和&amp;乘积&amp;平均数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\07-圆柱体.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\08-求圆.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\09-能否被5整除.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\100-编写函数求二维数组元素和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\101-编写输入&amp;排序&amp;折半查找.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\102-定义函数strmcpy.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\103-删除字符串中相同字符.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\104-指针改错.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\105-指针改错-交换函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\106-指针变量访问整型变量.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\107-指针变量排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\108-指针变量-调用函数实现排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\109-指针改错-数组输入.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\10-分段函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\11.1练习getchar.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\11.2-练习熟悉大小写字母ASCII.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\110-指针引用数组.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\111-指针引用数组-逆序存.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\112-指针引用数组-列指针访问二维数组.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\113-指针引用数组-行指针访问二维数组.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\114-指针改错-字符串复制.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\115-指针引用字符串-字符串复制函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\116-指向函数指针-函数指针变量调用函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\117-返回指针函数-用指针函数输出指定序号学生成绩.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\118-指针数组-字母排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\119-动态内存分配-查不及格分数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\11-分段函数2.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\120-指针-两数互换.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\121-指针-三个整数从大到小.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\122-指针-计算两数和与差.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\123-指针-数组元素位置互换.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\124-指针-插入数据.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\125-指针-约瑟夫环.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\126-指针-求二维数组和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\127-指针-统计成绩.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\128-指针-函数求字符串长度.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\129-指针-数组排序n个字符串.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\12-改错-乘除运算.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\130-结构体-改错-结构体变量的使用.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\131-结构体-选举投票.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\132-结构体-按照成绩的高低顺序输出学生信息.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\133-结构体-改错-指向结构体的指针.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\134-结构体-指针变量访问结构体变量中的成员.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\135-结构体-指针变量访问结构体数组.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\136-结构体-指针变量作函数参数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\137-结构体-改错-单向链表的建立和输出.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\138-结构体-静态链表的创建与访问.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\139-共用体-改错-变量的赋值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\13-改错-嵌套.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\140-结构体-计算某日期在本年中是第几天.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\141-结构体-按语文成绩由高到低输出学生信息.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\142-结构体-推销员业绩统计.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\143-结构体-通讯录排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\144-结构体-学生记录排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\145-结构体-n个学生信息的处理.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\146-结构体-动态链表的创建和输出.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\147-结构体-动态链表的创建和输出.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\148-结构体-动态链表结点的删除.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\14-改错-选择分段.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\15-判断整数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\16-洛谷系统.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\17-3整数排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\18-判断回文数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\19-判断三角形形状.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\20-计算分段函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\21-计算个人所得税.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\22-ISBN号码.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\23-显示某年某月的天数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\24-改写if_else语句.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\25-改错-信息多次重复显示.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\26-改错-计算及格人数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\27-改错-自由下落问题.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\28-改错-求平方和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\29-改错-打印不超过100的圆面积.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\30-输入n求和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\31-求个数&amp;和&amp;平均值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\32-求π的近似值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\33-兔子数列.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\34-判断是否为素数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\35-破译密码.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\36-输入m&amp;n递增&amp;递减.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\37-猴子吃桃.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\38-辗转相除法求最大公约数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\39-求一批正整数的奇数和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\40-输出自然数和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\41-计算分数和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\42-求前n项和-分母3.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\43-100人民币换零.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\44-判断回文数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\45-九九乘法表.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\46-求组合数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\47-求aaan的和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\48-统计各字符个数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\49-柱状图打印.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\50-求班级平均分.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\51-求两整数间素数个数&amp;和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\52-求2~n的素数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\53-找出给定正整数内的完数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\54-冒泡排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\55-二维数组初始化数据.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\56-统计二维数组大于n的元素和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\57-二维数组转置.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\58-二维数组求最大值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\59-字符初始化.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\60-找三个字符串中的最大字符串.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\61-从长整数从高位分割.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\62-选择法排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\63-插入一个数到有序序列的正确位置.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\64-停车费问题.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\65-出现一次的数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\66-求一组整数的最大值及其下标.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\67-重排整数各位数组成最大数和最小数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\68-最值&amp;平均值&amp;排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\69-求n阶方阵主对角线元素之和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\70-判断是否为上三角矩阵.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\71-打印杨辉三角.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\72-打印金字塔杨辉三角.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\73-查找二维数组的鞍点.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\74-输入两个不包含空格的字符串.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\75-统计一篇文章每行各类字符的个数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\76-用对应字母替换掉字符串中的大写字母.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\77-改错求两数和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\78-改错求最大值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\79-改错求两整数阶乘之和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\80-改错打印全局变量结果.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\81-打印1~n阶乘.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\82-用函数调用输出信息.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\83-求最大值函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\84-递归算法求年龄.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\85-递归求n阶乘.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\86-递归求Hanoi.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\87-求平均成绩.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\88-数组排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\89-求二维数组最大元素值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\90-编写判断素数函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\91-泰勒展开式求e近似值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\92-求一批正整数的奇数和.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\93-分别逆向输出.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\94-菜单选择计算组合数或排列数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\95-递归求兔子函数.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\96-函数求平均值.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\97-函数sort冒泡排序.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\98-数组中查找指定元素.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\99-判断两个数组是否包含相同元素.c">
+      <Filter>作业</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\149~157\149-文件合并.c">
+      <Filter>作业\149~157</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\149~157\150-统计文件内单词、字符数.c">
+      <Filter>作业\149~157</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\149~157\151-文本文件字符串的读写方式.c">
+      <Filter>作业\149~157</Filter>
+    </ClCompile>
+    <ClCompile Include="homework\149~157\152-二进制文件的读写.c">
+      <Filter>作业\149~157</Filter>
+    </ClCompile>
+    <ClCompile Include="Day03\04-二维数组-rain气象.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="Day05\06-自定义输入输出.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\10-结构体rebuild.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="Day04\11-结构声明&amp;typedef.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="homework2\01-算法实现-线性表.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+    <ClCompile Include="homework2\02-顺序表增删查改.cpp">
+      <Filter>ACM项目</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

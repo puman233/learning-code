@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4b4a9598-351c-4efa-8a5a-4a61af9dc3af}</ProjectGuid>
+    <RootNamespace>CLearn</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ACM项目\Sand Castle S.cpp" />
+    <ClCompile Include="ACM项目\宝箱.cpp" />
+    <ClCompile Include="ACM项目\非常男女计划(error).cpp" />
+    <ClCompile Include="ACM项目\混合牛奶.cpp" />
+    <ClCompile Include="ACM项目\货仓选址.cpp" />
+    <ClCompile Include="ACM项目\纪念品分组.cpp" />
+    <ClCompile Include="ACM项目\排列排序.cpp" />
+    <ClCompile Include="ACM项目\求区间和.cpp" />
+    <ClCompile Include="ACM项目\区间最大和.cpp" />
+    <ClCompile Include="ACM项目\商店.cpp" />
+    <ClCompile Include="ACM项目\数对.cpp" />
+    <ClCompile Include="ACM项目\双十一.cpp" />
+    <ClCompile Include="ACM项目\陶陶摘苹果（升级版）.cpp" />
+    <ClCompile Include="Day01\01-变量&amp;常量&amp;浮点数.cpp" />
+    <ClCompile Include="Day01\02-表达式&amp;赋值.cpp" />
+    <ClCompile Include="Day01\03-条件判断.cpp" />
+    <ClCompile Include="Day01\04-循环.cpp" />
+    <ClCompile Include="Day02\01-循环.cpp" />
+    <ClCompile Include="Day02\02-数据类型.cpp" />
+    <ClCompile Include="Day03\01-数组.cpp" />
+    <ClCompile Include="Day03\02-数组.cpp" />
+    <ClCompile Include="Day03\03-二维数组-棋盘.cpp" />
+    <ClCompile Include="Day03\04-二维数组-rain气象.cpp" />
+    <ClCompile Include="Day04\01-取地址.cpp" />
+    <ClCompile Include="Day04\02-指针.cpp" />
+    <ClCompile Include="Day04\03-指针使用.cpp" />
+    <ClCompile Include="Day04\04-指针&amp;数组.cpp" />
+    <ClCompile Include="Day04\05-指针&amp;const.cpp" />
+    <ClCompile Include="Day04\06-指针运算.cpp" />
+    <ClCompile Include="Day04\07-动态内存分配.cpp" />
+    <ClCompile Include="Day04\08-结构体.cpp" />
+    <ClCompile Include="Day04\09-类型定义.c" />
+    <ClCompile Include="Day04\10-结构体rebuild.cpp" />
+    <ClCompile Include="Day04\11-结构声明&amp;typedef.cpp" />
+    <ClCompile Include="Day05\01-字符串.cpp" />
+    <ClCompile Include="Day05\02-字符串常量.cpp" />
+    <ClCompile Include="Day05\03-字符串输入输出.cpp" />
+    <ClCompile Include="Day05\04-字符串数组.cpp" />
+    <ClCompile Include="Day05\05-单个字符输入输出.cpp" />
+    <ClCompile Include="Day05\06-自定义输入输出.cpp" />
+    <ClCompile Include="Day05\07-字符串函数.c" />
+    <ClCompile Include="Day05\08-枚举.c" />
+    <ClCompile Include="Day06\01-内存.cpp" />
+    <ClCompile Include="Day06\02-算法分析.cpp" />
+    <ClCompile Include="Day06\03-链表-头插法.cpp" />
+    <ClCompile Include="Day06\04-链表-尾插法.cpp" />
+    <ClCompile Include="Day06\05-链表-插入&amp;删除&amp;获取长度&amp;释放链表.cpp" />
+    <ClCompile Include="Day06\06-顺序表-增删改查.cpp" />
+    <ClCompile Include="Day06\07-顺序表-动态分配内存.cpp" />
+    <ClCompile Include="homework2\01-算法实现-线性表.cpp" />
+    <ClCompile Include="homework2\02-顺序表增删查改.cpp" />
+    <ClCompile Include="考试\01.c" />
+    <ClCompile Include="考试\02.c" />
+    <ClCompile Include="考试\03.c" />
+    <ClCompile Include="考试\04.c" />
+    <ClCompile Include="考试\05.c" />
+    <ClCompile Include="考试\06.c" />
+    <ClCompile Include="考试\07.c" />
+    <ClCompile Include="考试\08.c" />
+    <ClCompile Include="考试\09.c" />
+    <ClCompile Include="考试\10.c" />
+    <ClCompile Include="考试\11.c" />
+    <ClCompile Include="考试\12.c" />
+    <ClCompile Include="考试\13.c" />
+    <ClCompile Include="考试\14.c" />
+    <ClCompile Include="考试\15.c" />
+    <ClCompile Include="考试\16.c" />
+    <ClCompile Include="考试\17.c" />
+    <ClCompile Include="考试\18.c" />
+    <ClCompile Include="考试\19.c" />
+    <ClCompile Include="考试\20.c" />
+    <ClCompile Include="考试\21.c" />
+    <ClCompile Include="考试\22.c" />
+    <ClCompile Include="考试\23.c" />
+    <ClCompile Include="考试\24.c" />
+    <ClCompile Include="考试\25.c" />
+    <ClCompile Include="练习\01-猜拳游戏.cpp" />
+    <ClCompile Include="练习\02-求平均数.cpp" />
+    <ClCompile Include="练习\03-整数求逆.cpp" />
+    <ClCompile Include="练习\04-求最大公约数.cpp" />
+    <ClCompile Include="练习\05-素数数组.cpp" />
+    <ClCompile Include="练习\06-水仙花数.cpp" />
+    <ClCompile Include="练习\07-九九乘法表.cpp" />
+    <ClCompile Include="练习\08-统计素数求和.cpp" />
+    <ClCompile Include="homework\01-吃糖果.c" />
+    <ClCompile Include="homework\02-小鱼游泳.c" />
+    <ClCompile Include="homework\03-分割5位整数.c" />
+    <ClCompile Include="homework\04-计算表达式.c" />
+    <ClCompile Include="homework\05-利息.c" />
+    <ClCompile Include="homework\06-求和&amp;乘积&amp;平均数.c" />
+    <ClCompile Include="homework\07-圆柱体.c" />
+    <ClCompile Include="homework\08-求圆.c" />
+    <ClCompile Include="homework\09-能否被5整除.c" />
+    <ClCompile Include="homework\100-编写函数求二维数组元素和.c" />
+    <ClCompile Include="homework\101-编写输入&amp;排序&amp;折半查找.c" />
+    <ClCompile Include="homework\102-定义函数strmcpy.c" />
+    <ClCompile Include="homework\103-删除字符串中相同字符.c" />
+    <ClCompile Include="homework\104-指针改错.c" />
+    <ClCompile Include="homework\105-指针改错-交换函数.c" />
+    <ClCompile Include="homework\106-指针变量访问整型变量.c" />
+    <ClCompile Include="homework\107-指针变量排序.c" />
+    <ClCompile Include="homework\108-指针变量-调用函数实现排序.c" />
+    <ClCompile Include="homework\109-指针改错-数组输入.c" />
+    <ClCompile Include="homework\10-分段函数.c" />
+    <ClCompile Include="homework\11.1练习getchar.c" />
+    <ClCompile Include="homework\11.2-练习熟悉大小写字母ASCII.c" />
+    <ClCompile Include="homework\110-指针引用数组.c" />
+    <ClCompile Include="homework\111-指针引用数组-逆序存.c" />
+    <ClCompile Include="homework\112-指针引用数组-列指针访问二维数组.c" />
+    <ClCompile Include="homework\113-指针引用数组-行指针访问二维数组.c" />
+    <ClCompile Include="homework\114-指针改错-字符串复制.c" />
+    <ClCompile Include="homework\115-指针引用字符串-字符串复制函数.c" />
+    <ClCompile Include="homework\116-指向函数指针-函数指针变量调用函数.c" />
+    <ClCompile Include="homework\117-返回指针函数-用指针函数输出指定序号学生成绩.c" />
+    <ClCompile Include="homework\118-指针数组-字母排序.c" />
+    <ClCompile Include="homework\119-动态内存分配-查不及格分数.c" />
+    <ClCompile Include="homework\11-分段函数2.c" />
+    <ClCompile Include="homework\120-指针-两数互换.c" />
+    <ClCompile Include="homework\121-指针-三个整数从大到小.c" />
+    <ClCompile Include="homework\122-指针-计算两数和与差.c" />
+    <ClCompile Include="homework\123-指针-数组元素位置互换.c" />
+    <ClCompile Include="homework\124-指针-插入数据.c" />
+    <ClCompile Include="homework\125-指针-约瑟夫环.c" />
+    <ClCompile Include="homework\126-指针-求二维数组和.c" />
+    <ClCompile Include="homework\127-指针-统计成绩.c" />
+    <ClCompile Include="homework\128-指针-函数求字符串长度.c" />
+    <ClCompile Include="homework\129-指针-数组排序n个字符串.c" />
+    <ClCompile Include="homework\12-改错-乘除运算.c" />
+    <ClCompile Include="homework\130-结构体-改错-结构体变量的使用.c" />
+    <ClCompile Include="homework\131-结构体-选举投票.c" />
+    <ClCompile Include="homework\132-结构体-按照成绩的高低顺序输出学生信息.c" />
+    <ClCompile Include="homework\133-结构体-改错-指向结构体的指针.c" />
+    <ClCompile Include="homework\134-结构体-指针变量访问结构体变量中的成员.c" />
+    <ClCompile Include="homework\135-结构体-指针变量访问结构体数组.c" />
+    <ClCompile Include="homework\136-结构体-指针变量作函数参数.c" />
+    <ClCompile Include="homework\137-结构体-改错-单向链表的建立和输出.c" />
+    <ClCompile Include="homework\138-结构体-静态链表的创建与访问.c" />
+    <ClCompile Include="homework\139-共用体-改错-变量的赋值.c" />
+    <ClCompile Include="homework\13-改错-嵌套.c" />
+    <ClCompile Include="homework\140-结构体-计算某日期在本年中是第几天.c" />
+    <ClCompile Include="homework\141-结构体-按语文成绩由高到低输出学生信息.c" />
+    <ClCompile Include="homework\142-结构体-推销员业绩统计.c" />
+    <ClCompile Include="homework\143-结构体-通讯录排序.c" />
+    <ClCompile Include="homework\144-结构体-学生记录排序.c" />
+    <ClCompile Include="homework\145-结构体-n个学生信息的处理.c" />
+    <ClCompile Include="homework\146-结构体-动态链表的创建和输出.c" />
+    <ClCompile Include="homework\147-结构体-动态链表的创建和输出.c" />
+    <ClCompile Include="homework\148-结构体-动态链表结点的删除.c" />
+    <ClCompile Include="homework\149~157\149-文件合并.c" />
+    <ClCompile Include="homework\149~157\150-统计文件内单词、字符数.c" />
+    <ClCompile Include="homework\149~157\151-文本文件字符串的读写方式.c" />
+    <ClCompile Include="homework\149~157\152-二进制文件的读写.c" />
+    <ClCompile Include="homework\14-改错-选择分段.c" />
+    <ClCompile Include="homework\15-判断整数.c" />
+    <ClCompile Include="homework\16-洛谷系统.c" />
+    <ClCompile Include="homework\17-3整数排序.c" />
+    <ClCompile Include="homework\18-判断回文数.c" />
+    <ClCompile Include="homework\19-判断三角形形状.c" />
+    <ClCompile Include="homework\20-计算分段函数.c" />
+    <ClCompile Include="homework\21-计算个人所得税.c" />
+    <ClCompile Include="homework\22-ISBN号码.c" />
+    <ClCompile Include="homework\23-显示某年某月的天数.c" />
+    <ClCompile Include="homework\24-改写if_else语句.c" />
+    <ClCompile Include="homework\25-改错-信息多次重复显示.c" />
+    <ClCompile Include="homework\26-改错-计算及格人数.c" />
+    <ClCompile Include="homework\27-改错-自由下落问题.c" />
+    <ClCompile Include="homework\28-改错-求平方和.c" />
+    <ClCompile Include="homework\29-改错-打印不超过100的圆面积.c" />
+    <ClCompile Include="homework\30-输入n求和.c" />
+    <ClCompile Include="homework\31-求个数&amp;和&amp;平均值.c" />
+    <ClCompile Include="homework\32-求π的近似值.c" />
+    <ClCompile Include="homework\33-兔子数列.c" />
+    <ClCompile Include="homework\34-判断是否为素数.c" />
+    <ClCompile Include="homework\35-破译密码.c" />
+    <ClCompile Include="homework\36-输入m&amp;n递增&amp;递减.c" />
+    <ClCompile Include="homework\37-猴子吃桃.c" />
+    <ClCompile Include="homework\38-辗转相除法求最大公约数.c" />
+    <ClCompile Include="homework\39-求一批正整数的奇数和.c" />
+    <ClCompile Include="homework\40-输出自然数和.c" />
+    <ClCompile Include="homework\41-计算分数和.c" />
+    <ClCompile Include="homework\42-求前n项和-分母3.c" />
+    <ClCompile Include="homework\43-100人民币换零.c" />
+    <ClCompile Include="homework\44-判断回文数.c" />
+    <ClCompile Include="homework\45-九九乘法表.c" />
+    <ClCompile Include="homework\46-求组合数.c" />
+    <ClCompile Include="homework\47-求aaan的和.c" />
+    <ClCompile Include="homework\48-统计各字符个数.c" />
+    <ClCompile Include="homework\49-柱状图打印.c" />
+    <ClCompile Include="homework\50-求班级平均分.c" />
+    <ClCompile Include="homework\51-求两整数间素数个数&amp;和.c" />
+    <ClCompile Include="homework\52-求2~n的素数.c" />
+    <ClCompile Include="homework\53-找出给定正整数内的完数.c" />
+    <ClCompile Include="homework\54-冒泡排序.c" />
+    <ClCompile Include="homework\55-二维数组初始化数据.c" />
+    <ClCompile Include="homework\56-统计二维数组大于n的元素和.c" />
+    <ClCompile Include="homework\57-二维数组转置.c" />
+    <ClCompile Include="homework\58-二维数组求最大值.c" />
+    <ClCompile Include="homework\59-字符初始化.c" />
+    <ClCompile Include="homework\60-找三个字符串中的最大字符串.c" />
+    <ClCompile Include="homework\61-从长整数从高位分割.c" />
+    <ClCompile Include="homework\62-选择法排序.c" />
+    <ClCompile Include="homework\63-插入一个数到有序序列的正确位置.c" />
+    <ClCompile Include="homework\64-停车费问题.c" />
+    <ClCompile Include="homework\65-出现一次的数.c" />
+    <ClCompile Include="homework\66-求一组整数的最大值及其下标.c" />
+    <ClCompile Include="homework\67-重排整数各位数组成最大数和最小数.c" />
+    <ClCompile Include="homework\68-最值&amp;平均值&amp;排序.c" />
+    <ClCompile Include="homework\69-求n阶方阵主对角线元素之和.c" />
+    <ClCompile Include="homework\70-判断是否为上三角矩阵.c" />
+    <ClCompile Include="homework\71-打印杨辉三角.c" />
+    <ClCompile Include="homework\72-打印金字塔杨辉三角.c" />
+    <ClCompile Include="homework\73-查找二维数组的鞍点.c" />
+    <ClCompile Include="homework\74-输入两个不包含空格的字符串.c" />
+    <ClCompile Include="homework\75-统计一篇文章每行各类字符的个数.c" />
+    <ClCompile Include="homework\76-用对应字母替换掉字符串中的大写字母.c" />
+    <ClCompile Include="homework\77-改错求两数和.c" />
+    <ClCompile Include="homework\78-改错求最大值.c" />
+    <ClCompile Include="homework\79-改错求两整数阶乘之和.c" />
+    <ClCompile Include="homework\80-改错打印全局变量结果.c" />
+    <ClCompile Include="homework\81-打印1~n阶乘.c" />
+    <ClCompile Include="homework\82-用函数调用输出信息.c" />
+    <ClCompile Include="homework\83-求最大值函数.c" />
+    <ClCompile Include="homework\84-递归算法求年龄.c" />
+    <ClCompile Include="homework\85-递归求n阶乘.c" />
+    <ClCompile Include="homework\86-递归求Hanoi.c" />
+    <ClCompile Include="homework\87-求平均成绩.c" />
+    <ClCompile Include="homework\88-数组排序.c" />
+    <ClCompile Include="homework\89-求二维数组最大元素值.c" />
+    <ClCompile Include="homework\90-编写判断素数函数.c" />
+    <ClCompile Include="homework\91-泰勒展开式求e近似值.c" />
+    <ClCompile Include="homework\92-求一批正整数的奇数和.c" />
+    <ClCompile Include="homework\93-分别逆向输出.c" />
+    <ClCompile Include="homework\94-菜单选择计算组合数或排列数.c" />
+    <ClCompile Include="homework\95-递归求兔子函数.c" />
+    <ClCompile Include="homework\96-函数求平均值.c" />
+    <ClCompile Include="homework\97-函数sort冒泡排序.c" />
+    <ClCompile Include="homework\98-数组中查找指定元素.c" />
+    <ClCompile Include="homework\99-判断两个数组是否包含相同元素.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

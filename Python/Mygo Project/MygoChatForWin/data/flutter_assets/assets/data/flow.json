@@ -1,0 +1,231 @@
+{
+  "_meta": {
+    "title": "MyGO剧情决策模拟器",
+    "description": "基于《BanG Dream! It's MyGO!!!!!》剧情改编的视觉小说式决策模拟器",
+    "version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "id": "start_node",
+      "type": "dialogue",
+      "character": "anon",
+      "speaker": "爱音",
+      "text": "大家听我说！\n我们组个乐队吧！",
+      "background": "bg_livehouse.png",
+      "next": "sakiko_comment",
+      "x": 400,
+      "y": 50
+    },
+    {
+      "id": "sakiko_comment",
+      "type": "dialogue",
+      "character": "soyo",
+      "speaker": "素世",
+      "text": "唉…爱音你又来了。\n上次练习你就迟到了半小时呢。",
+      "background": "bg_livehouse.png",
+      "next": "tomo_interest_choice",
+      "x": 400,
+      "y": 150
+    },
+    {
+      "id": "tomo_interest_choice",
+      "type": "choice",
+      "character": "system",
+      "speaker": "系统",
+      "text": "灯看起来对乐队活动有兴趣吗？",
+      "background": "bg_livehouse.png",
+      "choices": [
+        {
+          "text": "是的，灯很感兴趣",
+          "nextNode": "branch_a_light_affirm",
+          "condition": ""
+        },
+        {
+          "text": "不，灯不太有兴趣",
+          "nextNode": "branch_b_light_silent",
+          "condition": ""
+        }
+      ],
+      "x": 400,
+      "y": 250
+    },
+    {
+      "id": "branch_a_light_affirm",
+      "type": "dialogue",
+      "character": "tomori",
+      "speaker": "灯",
+      "text": "嗯…我想和爱音一起演奏。",
+      "background": "bg_livehouse.png",
+      "next": "branch_a_taki_change",
+      "x": 150,
+      "y": 350
+    },
+    {
+      "id": "branch_a_taki_change",
+      "type": "dialogue",
+      "character": "rikki",
+      "speaker": "立希",
+      "text": "哼…既然灯都这么说了，\n那我也没意见。",
+      "background": "bg_livehouse.png",
+      "next": "branch_a_soyo_agree",
+      "x": 150,
+      "y": 450
+    },
+    {
+      "id": "branch_a_soyo_agree",
+      "type": "dialogue",
+      "character": "soyo",
+      "speaker": "素世",
+      "text": "真是拿你们没办法呢。\n好吧，我也加入。",
+      "background": "bg_livehouse.png",
+      "next": "branch_a_cat_parfait_choice",
+      "x": 150,
+      "y": 550
+    },
+    {
+      "id": "branch_a_cat_parfait_choice",
+      "type": "choice",
+      "character": "system",
+      "speaker": "系统",
+      "text": "乐奈在附近吗？\n并且有芭菲可以吸引她？",
+      "background": "bg_livehouse.png",
+      "choices": [
+        {
+          "text": "在！而且有芭菲！",
+          "nextNode": "ending_1",
+          "condition": ""
+        },
+        {
+          "text": "不在…或者没有芭菲",
+          "nextNode": "ending_2",
+          "condition": ""
+        }
+      ],
+      "x": 150,
+      "y": 650
+    },
+    {
+      "id": "ending_1",
+      "type": "ending",
+      "character": "narrator",
+      "speaker": "旁白",
+      "text": "乐奈闻到了芭菲的香味，悄无声息地出现了。\n「我要抹茶芭菲。」\n\n就这样，五人齐聚一堂——\nMyGO!!!!! 的乐队活动，正式开始了！",
+      "background": "bg_stage.png",
+      "endingId": 1,
+      "endingName": "★ 完美集结 — 五人乐队 ★",
+      "x": 50,
+      "y": 750
+    },
+    {
+      "id": "ending_2",
+      "type": "ending",
+      "character": "narrator",
+      "speaker": "旁白",
+      "text": "虽然少了乐奈的身影有些遗憾，\n但爱音、灯、素世和立希四人决定先开始练习。\n\n「下次一定要把乐奈也拉进来！」\n爱音握紧拳头，眼中闪着光芒。",
+      "background": "bg_stage.png",
+      "endingId": 2,
+      "endingName": "★★ 四人前行 — 爱素灯希 ★★",
+      "x": 150,
+      "y": 850
+    },
+    {
+      "id": "branch_b_light_silent",
+      "type": "dialogue",
+      "character": "tomori",
+      "speaker": "灯",
+      "text": "…………\n（低头玩着手中的石头）",
+      "background": "bg_livehouse.png",
+      "next": "branch_b_light_gugu",
+      "x": 650,
+      "y": 350
+    },
+    {
+      "id": "branch_b_light_gugu",
+      "type": "dialogue",
+      "character": "tomori",
+      "speaker": "灯",
+      "text": "咕…咕嘎嘎…\n（发出含糊不清的声音）",
+      "background": "bg_livehouse.png",
+      "next": "branch_b_light_bandaid",
+      "x": 650,
+      "y": 450
+    },
+    {
+      "id": "branch_b_light_bandaid",
+      "type": "dialogue",
+      "character": "tomori",
+      "speaker": "灯",
+      "text": "…………创可贴…\n（把创可贴贴在吉他上）",
+      "background": "bg_livehouse.png",
+      "next": "branch_b_taki_angry",
+      "x": 650,
+      "y": 550
+    },
+    {
+      "id": "branch_b_taki_angry",
+      "type": "dialogue",
+      "character": "rikki",
+      "speaker": "立希",
+      "text": "够了！别让灯为难了！\n爱音你没看到灯不想吗？！",
+      "background": "bg_livehouse.png",
+      "next": "branch_b_soyo_reluctant",
+      "x": 650,
+      "y": 650
+    },
+    {
+      "id": "branch_b_soyo_reluctant",
+      "type": "dialogue",
+      "character": "soyo",
+      "speaker": "素世",
+      "text": "立希说得对…不过，\n我也没说我不去哦。",
+      "background": "bg_livehouse.png",
+      "next": "branch_b_cat_gone",
+      "x": 650,
+      "y": 750
+    },
+    {
+      "id": "branch_b_cat_gone",
+      "type": "dialogue",
+      "character": "soyo",
+      "speaker": "素世",
+      "text": "但是……乐奈那孩子不知道跑哪去了。",
+      "background": "bg_livehouse.png",
+      "next": "ending_3",
+      "x": 650,
+      "y": 850
+    },
+    {
+      "id": "ending_3",
+      "type": "ending",
+      "character": "narrator",
+      "speaker": "旁白",
+      "text": "灯没有参与，立希生着闷气离开，乐奈不知去向。\n最后只剩下爱音和素世两个人。\n\n「就我们两个……开始吧。」\n素世轻轻叹了口气，露出无奈的微笑。",
+      "background": "bg_stage.png",
+      "endingId": 3,
+      "endingName": "★★★ 两人世界 — 爱素行动 ★★★",
+      "x": 650,
+      "y": 950
+    }
+  ],
+  "startNodeId": "start_node",
+  "endings": {
+    "1": {
+      "id": 1,
+      "name": "完美集结 — 五人乐队",
+      "description": "灯肯定、立希同意、素世加入，乐奈也被芭菲吸引而来。五人齐聚，MyGO!!!!!正式启航！",
+      "stars": 3
+    },
+    "2": {
+      "id": 2,
+      "name": "四人前行 — 爱素灯希",
+      "description": "乐奈缺席，但爱音、灯、素世和立希四人团结一致，开始了乐队练习。",
+      "stars": 4
+    },
+    "3": {
+      "id": 3,
+      "name": "两人世界 — 爱素行动",
+      "description": "灯退缩、立希生气、乐奈消失，最后只剩爱音和素世两人相依为命。",
+      "stars": 5
+    }
+  }
+}

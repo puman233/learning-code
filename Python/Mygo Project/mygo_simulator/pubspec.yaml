@@ -1,0 +1,38 @@
+name: mygo_simulator
+description: "《MyGO剧情决策模拟器》— 基于BanG Dream! It's MyGO!!!!!的视觉小说式决策模拟器"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 本地持久化存储
+  shared_preferences: ^2.2.2
+  # 状态管理
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  # 资源文件声明
+  assets:
+    - assets/data/flow.json
+    - assets/data/characters.json
+    - assets/images/characters/
+    - assets/images/backgrounds/
+
+  # 字体配置（可选 - 若用户放置了字体文件）
+  # fonts:
+  #   - family: NotoSansSC
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansSC-Regular.ttf
+  #       - asset: assets/fonts/NotoSansSC-Bold.ttf
+  #         weight: 700

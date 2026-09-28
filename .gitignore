@@ -1,0 +1,126 @@
+
+# ===== 密钥、隐私、系统文件 =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# ===== C / C++ =====
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.ilk
+*.idb
+*.exp
+Debug/
+Release/
+x64/
+x86/
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+bin/
+.gradle/
+build/
+
+# ===== C# =====
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# ===== HTML5 / 前端 =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.cache/
+.parcel-cache/
+
+# ===== 压缩包 / 大文件 =====
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+*.psd
+*.ai
+
+# 排除编译生成的安装包
+*.apk
+
+# 排除 Java 运行时环境
+runtime/
+modules
+
+# 排除其他常见编译产物
+build/
+dist/
+target/

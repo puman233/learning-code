@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- 
+    引用
+
+    HTML 也有用于标记引用的特性，至于使用哪个元素标记，
+    取决于你引用的是一块还是一行。
+    
+    块引用
+
+    如果其他地方引用一个块级内容（一个段落、多个段落、一个列表等），
+    你应该把它用 <blockquote> 元素包裹起来表示，
+    并且在 cite 属性里用 URL 来指向引用的资源。
+    例如，下面的示例代码就是引用的 MDN 的 <blockquote> 元素页面：
+     -->
+    <p>
+      <strong>
+        HTML
+        <code> &lt;blockquote&gt; </code>
+        元素
+      </strong>
+      （或<em>HTML 块级引用元素</em>）表示所附文本为扩展引用。
+    </p>
+
+    <!-- 要把这些转换为块引用，我们要这样做： -->
+    <p>这是块引用：</p>
+    <!-- 浏览器的默认样式会将其渲染为缩进的段落，以表明这是一个引用 -->
+    <blockquote
+      cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote"
+    >
+      <p>
+        <strong> HTML <code>&lt;blockquote&gt;</code> 元素 </strong>（ 或<em
+          >HTML 块级引用元素</em
+        >）表示所附文本为扩展引用。
+      </p>
+    </blockquote>
+
+    <!-- 
+    行内引用
+
+    除了使用 <q> 元素以外，行内元素用同样的方式工作。
+        浏览器默认将其作为普通文本放入引号内表示引用
+    例如，下面的标记包含了从 MDN <q> 页面的引用：
+     -->
+    <p>
+      引用元素 <code>&lt;q&gt;</code> 是<q
+        cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/q"
+        >用于不需要段落分隔的短引用。</q
+      >
+    </p>
+
+    <!-- 
+    引文
+
+    cite 属性的内容听起来很有用，
+    但不幸的是，浏览器、屏幕阅读器并没有充分利用它。
+    如果不使用 JavaScript 或 CSS 编写自己的解决方案，
+    就没有办法让浏览器显示 cite 的内容。
+    如果你想在页面上提供引文的来源，
+    你需要在文本中通过链接或其他适当的方式来提供它
+     -->
+    <p>
+      根据<a href="/zh-CN/docs/Web/HTML/Element/blockquote"
+        ><cite>MDN 块引用页</cite></a
+      >：
+    </p>
+
+    <blockquote
+      cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote"
+    >
+      <p>
+        <strong>HTML <code>&lt;blockquote&gt;</code> 元素</strong>（或<em
+          >HTML 块级引用元素</em
+        >）表示所附文本为扩展引用。
+      </p>
+    </blockquote>
+
+    <p>
+      引用元素 <code>&lt;q&gt;</code> 是<q
+        cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/q"
+        >用于不需要段落分隔的短引用。</q
+      >——<a href="/zh-CN/docs/Web/HTML/Element/q"> <cite>MDN q 页面</cite></a>
+    </p>
+
+    <!--
+    行内引用
+
+    除了使用 <q> 元素以外，行内元素用同样的方式工作。
+    例如，下面的标记包含了从 MDN <q> 页面的引用
+    -->
+    <p>
+      引用元素 <code>
+        &lt;q&gt;
+      </code> 是
+      <q cite="https://www.bilibili.com">
+        用于不需要段落分隔的短引用。
+      </q>
+      <a href = "https://www.bilibili.com">
+        哔哩哔哩页面
+      </a>
+    </p>
+      
+      
+  </body>
+</html>

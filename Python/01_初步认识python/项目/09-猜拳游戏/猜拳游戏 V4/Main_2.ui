@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <widget class="QLabel" name="topShow">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HarmonyOS Sans</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::TabFocus</enum>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="toolTipDuration">
+    <number>-1</number>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="text">
+    <string>欢迎来到猜拳游戏😉</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+   <property name="openExternalLinks">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="intPlayer">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>150</y>
+     <width>250</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindPlayer">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请玩家输入</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindComputer">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>110</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>电脑输入</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="intComputerAll">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>150</y>
+     <width>250</width>
+     <height>200</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="command">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>460</y>
+     <width>830</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindCommand">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>840</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>控制台</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

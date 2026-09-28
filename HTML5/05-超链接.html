@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+    链接的解析
+
+    通过将文本或其他内容包裹在 <a> 元素内，
+    并给它一个包含网址的 href 属性
+    （也称为超文本引用或目标，它将包含一个网址）
+    来创建一个基本链接。
+     -->
+    <p>
+    我创建了一个指向
+    <a href="https://www.mozilla.org/zh-CN/">Mozilla 主页</a>的链接。
+    </p>
+
+    <!-- 
+    块级链接
+
+    就像之前提到的那样，任何内容，甚至块级元素都可以作为链接出现。
+    如果想让标题元素变为链接，
+    就把它包裹在锚点元素（<a>）内，像这个代码段一样：
+     -->
+    <a href="https://developer.mozilla.org/zh-CN/">
+    <h1>MDN Web 文档</h1>
+    </a>
+    <p>自从 2005 年起，就开始记载包括 CSS、HTML、JavaScript 等网络技术。</p>
+    
+    <!-- 
+    图片链接
+
+    如果有需要作为链接的图片，
+    使用 <a> 元素来包裹要引用图片的 <img> 元素。
+        下面的示例使用相对路径来引用本地存储的 SVG 图像文件。
+     -->
+    <a href="https://developer.mozilla.org/zh-CN/">
+    <img 
+    src="https://6e39f368e30539d810d08037e2fe1e8ae32aedd9.mdnplay.dev/zh-CN/docs/Learn_web_development/Core/Structuring_content/Creating_links/mdn_logo.svg" 
+    alt="MDN Web 文档"
+    height="100" />
+    </a>
+
+    <!-- 
+    使用 title 属性添加支持信息
+
+    你可能要添加到你的链接的另一个属性是 title。
+    这旨在包含关于链接的补充信息，
+    例如页面包含什么样的信息或需要注意的事情
+     -->
+    <p>
+    我创建了一个指向
+    <a
+        href="https://www.mozilla.org/zh-CN/"
+        title="了解 Mozilla 使命以及如何参与贡献的最佳站点。">
+        Mozilla 主页</a
+    >的超链接。
+    </p>
+
+    <p>
+        指向哔哩哔哩的链接
+    <a 
+        href="https://www.bilibili.com"
+        title="哔哩哔哩">
+        哔哩哔哩主页
+    </a>
+    </p>
+
+    <!-- 
+    文档片段
+
+    超链接除了可以链接到文档外，
+    也可以链接到 HTML 文档的特定部分（被称为文档片段）。
+    
+    要做到这一点，你必须首先给要链接到的元素分配一个 id 属性。
+    通常情况下，链接到一个特定的标题是有意义的，这看起来就像下面这样：
+     -->
+    <h2 id="BiliBili_address">哔哩哔哩地址</h2>
+
+    <p>
+    要提供意见和建议，请将信件邮寄至
+    <a href="https://www.bilibili.com#BiliBili_address">
+        哔哩哔哩的地址
+    </a>。
+    </p>
+    <p>本页面底部可以找到
+        <a href="#BiliBili_address">哔哩哔哩邮寄地址</a>。
+    </p>
+    
+
+</body>
+</html>

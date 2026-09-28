@@ -1,0 +1,336 @@
+<!-- 
+元素 	描述
+<base> 	指定用于一个文档中包含的所有相对 URL 的基础 URL。
+        一个文档中只能有一个该元素。
+<head> 	包含机器可读的文档相关的配置信息（元数据），
+        包括文档的标题、脚本和样式表等。
+<link> 	指定当前文档与外部资源的关系。
+        该元素最常用于链接 CSS，此外也可以被用来创建站点图标
+        （比如“favicon”样式图标和移动设备上用以显示在主屏幕的图标）。
+<meta> 	表示那些不能由其它 HTML 元相关元素表示的元数据信息。
+        如：<base>、<link>、<script>、<style> 或 <title>。
+<style> 包含文档或文档部分内容的样式信息。
+        它包含 CSS 样式，这些样式将应用于包含此元素的文档内容。
+<title> 定义文档的标题，显示在浏览器的标题栏或标签页上。
+        它仅包含文本；元素内部的 HTML 标签（如有）也将被视为纯文本。
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- 
+    属性
+    该标签包含全局属性。
+
+    如果指定了以下任一属性，这个元素必须在其他任何属性是 URL 的元素之前。
+    例如：<link> 的 href 属性。
+
+    href
+        该属性指定了一个 URL 地址，表示当前文档与外部资源的关系。
+        该属性值可以是绝对 URL，也可以是相对 URL。
+        用于文档中相对 URL 地址的基础 URL。允许绝对和相对 URL。
+    
+    target
+        默认浏览上下文的关键字或作者定义的名称，
+        当没有明确目标的链接 <a> 或表单 <form> 导致导航被激活时显示其结果。
+        该属性值定位到浏览上下文（例如选项卡，窗口或内联框 <iframe>）。
+            
+        以下的关键字指定特殊的意思：
+            _self: 载入结果到当前浏览上下文中。（该值是元素的默认值）。
+            _blank: 载入结果到一个新的未命名的浏览上下文。
+            _parent: 载入结果到父级浏览上下文（如果当前页是内联框）。
+                    如果没有父级结构，该选项的行为和_self一样。
+            _top: 载入结果到顶级浏览上下文（该浏览上下文是当前上下文的最顶级上下文）。
+                    如果没有父级，该选项的行为和_self 一样。
+
+    多个 <base> 元素
+        如果指定了多个 <base> 元素，只会使用第一个 href 和 target 值，
+        其余都会被忽略。
+
+    页内锚
+    指向文档中某个片段的链接，例如 <a href="#some-id"> 用 <base> 解析，
+        触发对带有附加片段的基本 URL 的 HTTP 请求。
+    例如：给定 <base href="https://example.com">
+            以及此链接 <a href="#anchor">Anker</a>
+            链接指向 https://example.com/#anchor
+     -->
+    <base href="http://www.example.com/" />
+    <base target="_blank" />
+    <base target="_top" href="http://www.example.com" />
+
+    <!-- 
+    <style> 元素必须包含在文档的 <head> 内。
+    一般来说，最好将样式放在外部样式表中，然后使用 <link> 元素应用它们。
+
+    如果在文档中包含多个 <style> 和 <link> 元素，
+    它们将按照在文档中包含的顺序应用到 DOM，
+    请确保按照正确的顺序包含它们，以避免出现意想不到的层叠问题。
+
+    与 <link> 元素的方式相同，
+    <style> 元素可以包含用于媒体查询的 media 属性，
+    这样就可以根据视口宽度等媒体特性，
+    有选择性地将内部样式表应用到文档中。
+
+    blocking
+        该属性明确指出在获取关键子资源时应阻止某些操作。
+        通常，@import 样式表被视为关键子资源，
+        而 background-image 和字体则不被视为关键子资源。
+        要阻止的操作必须是下面列出的以空格分隔的阻止标记列表。
+
+    render：屏幕上的内容渲染被阻断。
+
+    media
+        该属性规定该样式适用于哪个媒体。
+        属性的取值为媒体查询，如果属性缺失，则默认为 all。
+
+    nonce
+        用于允许在 style-src Content-Security-Policy 中
+        使用内联样式的密码学 nonce（只使用一次的数字）。
+        每次传输策略时，服务器都必须生成一个唯一的 nonce 值。
+        提供一个无法猜测的 nonce 值至关重要，
+        否则绕过资源策略将变得微不足道。
+   
+    title
+        该属性指定替代样式表集。
+
+    -->
+
+    <style>
+        p {
+            color:red;
+        }
+    </style>
+
+    <!-- 
+    多个样式元素
+        在本例中，我们包含了两个 <style> 元素。请注意，
+        如果后一个 <style> 元素中的优先级相同，
+        那么后一个元素中的冲突声明将覆盖前一个元素中的冲突声明
+     -->
+    
+    <style>
+        p{
+            color:white;
+            background-color: blue;
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+    <style>
+        p{
+            color: blue;
+            background-color: yellow;
+        }
+    </style>
+
+    <!-- 
+    包含媒体查询
+        在这个示例中，我们在前一个示例的基础上，
+        在第二个 <style> 元素上加入了 media 属性，
+        因此只有当视口宽度小于 500px 时才会应用该属性。
+     -->
+    <style>
+        p {
+            color: white;
+            background-color: rgb(170, 170, 255);
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+    <style media="all and (max-width:500px)">
+        p {
+            color: rgb(156, 156, 255) ;
+            background-color: yellow;
+        }
+    </style>
+
+    
+    <!-- 
+    <link> 元素可以出现在 <head> 元素或 <body> 元素中，
+        具体取决于它是否有一个 body-ok 的链接类型
+    
+    要链接一个外部的样式表，你需要像这样在你的 <head> 中包含一个 <link> 元素：
+        使用了 href 属性设置外部资源的路径，
+        并设置 rel 属性的值为 stylesheet。rel 表示“关系”，
+        它可能是 <link> 元素其中一个关键的特性——
+        属性值表示 <link> 项的链接方式与包含它的文档之间的关系
+    -->
+    <link href="main.css" rel="stylesheet" />
+
+    <!-- 例如，这里是一个网站图标的链接： -->
+    <link rel="icon" href="favicon.ico" />
+
+    <!-- 还有一些其他的与图标相关的 rel 值，主要用于表示不同移动平台上特殊的图标类型，例如： -->
+    <link
+        rel="apple-touch-icon"
+        sizes="114x114" 
+        href="apple-icon-114.png"
+        type="image/png" />
+    <!-- 
+        sizes 属性表示图标大小，type 属性包含了链接资源的 MIME 类型。
+        -->
+    
+    <!-- 
+        可以在 media 属性中提供媒体类型或查询；
+        这种资源将只在满足媒体条件的情况下才会加载。
+        例如：
+         -->
+    <link href="print.css" rel="stylesheet" media="print" />
+    <link
+    href="mobile.css"
+    rel="stylesheet"
+    media="screen and (max-width: 600px)" />
+        
+    <p>This text will be red as defined in the external stylesheet.</p>
+    <p style="color: rgb(23, 23, 242)">
+    The <code>style</code> attribute can override it, though.
+    </p>
+
+    <!-- 包含样式表
+        要在页面中包含样式表，请使用以下语法： -->
+    
+    <link href="style.css" rel="stylesheet" />
+    <link href="default.css" rel="stylesheet" title="默认样式" />
+    <link href="fancy.css" rel="alternate stylesheet" title="精美样式" />
+    <link href="basic.css" rel="alternate stylesheet" title="基本样式" />
+        
+    <!-- 
+        提供用于不同用法上下文的图标
+
+        你可以在同一页面上包含指向多个不同图标的链接，
+        浏览器将使用 rel 和 sizes 值作为提示来选择最适合其特定上下文的图标。
+         -->
+    <!-- 配备高分辨率 Retina 显示屏的 iPad Pro: -->
+    <link
+    rel="apple-touch-icon"
+    sizes="167x167"
+    href="/apple-touch-icon-167x167.png" />
+    <!-- 3x 分辨率的 iPhone： -->
+    <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/apple-touch-icon-180x180.png" />
+    <!-- 非 Retina iPad、iPad mini，等等： -->
+    <link
+    rel="apple-touch-icon"
+    sizes="152x152"
+    href="/apple-touch-icon-152x152.png" />
+    <!-- 2x 分辨率的 iPhone 和其他设备： -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon-120x120.png" />
+    <!-- 基本的 favicon -->
+    <link rel="icon" href="/favicon.ico" />
+    
+    <!-- 通过媒体查询有条件地加载资源
+
+    你可以在 media 属性中提供媒体类型或查询；
+    然后，只有在媒体条件为真时，才会加载此资源。
+    例如：
+ -->
+    <link href="print.css" rel="stylesheet" media="print" />
+    <link href="mobile.css" rel="stylesheet" media="all" />
+    <link
+    href="desktop.css"
+    rel="stylesheet"
+    media="screen and (min-width: 600px)" />
+    <link
+    href="highres.css"
+    rel="stylesheet"
+    media="screen and (min-resolution: 300dpi)" />
+
+    <!-- 样式表加载事件
+
+    你能够通过监听发生在样式表上的 load 事件知道什么时候样式表加载完毕。
+    同样的，你能够通过监听 error 事件检测到是否在加载样式表的过程中出现错误。
+    -->
+    <script>
+    const stylesheet = document.getElementById("my-stylesheet");
+
+    stylesheet.onload = () => {
+        // 做点有意思的事情，样式表已经加载了
+    };
+
+    stylesheet.onerror = () => {
+        console.log("加载样式表时发生错误！");
+    };
+    </script>
+
+    <!-- 在获取资源前阻止渲染
+
+    可以在 blocking 属性中包含 render 标记；
+    页面的渲染将被阻止，直到资源被获取。
+    例如： -->
+    <link blocking="render" rel="stylesheet" href="example.css" crossorigin />
+    
+
+     <!-- Open Graph 标签不接受 <base>，
+      并且应该始终具有完整的绝对 URL。例如： -->
+    <meta property="og:image" content="https://example.com/thumbnail.jpg">
+    
+    <!-- 
+    charset
+        该属性声明了文档的字符编码。
+        如果存在该属性，
+        则其值必须是字符串 "utf-8" 的不区分 ASCII 大小写的匹配，
+        因为 UTF-8 是 HTML5 文档的唯一有效编码。
+        声明字符编码的 <meta> 元素必须完全位于文档的前 1024 个字节内。
+
+    content
+        此属性包含 http-equiv 或 name 属性的值，具体取决于所使用的值。
+
+    http-equiv
+        属性定义了一个编译指示指令。
+        这个属性叫做 http-equiv(alent) 是因为所有允许的值都是特定 HTTP 标头的名称，
+        如下：
+
+        content-security-policy 
+            允许页面作者定义当前页面的内容策略。
+            内容策略常用来指定允许的服务器源和脚本端点，
+            这有助于防止跨站点脚本攻击。
+
+        content-type 
+            声明 MIME 类型和文档的字符编码。
+            如果使用 content-type 属性，
+            与之在同一个 <meta> 元素中使用的 content 属性的值
+            必须是 "text/html; charset=utf-8"。
+            这相当于一个具有指定 charset 属性的 <meta> 元素，
+            并对其在文档中的放置位置有相同的限制。
+            注意：该属性只能用于 MIME 类型为 text/html 的文档，
+            不能用于 MIME 类型为 XML 的文档。
+
+        default-style
+            设置默认 CSS 样式表组的名称。
+
+        x-ua-compatible 
+            如果指定，则 content 属性必须具有值 "IE=edge"。
+            用户代理必须忽略此指示。
+
+        refresh 这个属性指定：
+            页面重新加载的秒数——仅当 content 属性包含非负整数时。
+            页面重定向到指定链接的秒数——
+            仅当 content 属性包含非负整数后跟字符串“;
+            url=”和有效的 URL 时。
+
+    name
+        name 和 content 属性可以一起使用，
+        以名 - 值对的方式给文档提供元数据，
+        其中 name 作为元数据的名称，content 作为元数据的值。
+        在标准元数据名称中查看 HTML 规范等规范中定义的标准元数据名称。
+
+     -->
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3; url=https://www.bilibili.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头部元数据</title>
+</head>
+<body>
+
+    <p>
+        这是一个段落
+    </p>
+    <p>
+        3秒后跳转哔哩哔哩
+    </p>
+    
+</body>
+</html>

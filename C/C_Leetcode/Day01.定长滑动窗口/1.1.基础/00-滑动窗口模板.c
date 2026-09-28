@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// 滑动窗口
+int numOfSubarrays(int* arr, int arrSize, int k, int threshold) {
+    int ans = 0;
+    int s = 0; // 维护窗口元素和
+    for (int i = 0; i < arrSize; i++) {
+        // 1. 进入窗口
+        s += arr[i];
+        if (i < k - 1) { // 窗口大小不足 k
+            continue;
+        }
+        // 2. 更新答案
+        ans += s >= k * threshold;
+        // 3. 离开窗口
+        s -= arr[i - k + 1];
+    }
+    return ans;
+}
+
+
+int main(int argc, char *argv[]) {
+    return 0;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- 只保留一个 base -->
+  <base href="http://www.example.com/" target="_blank">
+
+  <link id="my-stylesheet" href="main.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  <link
+    rel="apple-touch-icon"
+    sizes="114x114"
+    href="apple-icon-114.png"
+    type="image/png">
+
+  <link href="print.css" rel="stylesheet" media="print">
+  <link
+    href="mobile.css"
+    rel="stylesheet"
+    media="screen and (max-width: 600px)">
+
+  <meta property="og:image" content="https://example.com/thumbnail.jpg">
+</head>
+<body>
+  <p>This text will be red as defined in the external stylesheet.</p>
+  <p style="color: rgb(23, 23, 242)">
+    The <code>style</code> attribute can override it, though.
+  </p>
+
+  <script>
+    const stylesheet = document.getElementById("my-stylesheet");
+
+    if (stylesheet) {
+      stylesheet.onload = () => {
+        // 样式表已加载
+      };
+
+      stylesheet.onerror = () => {
+        console.error("加载样式表时发生错误！");
+      };
+    }
+  </script>
+</body>
+</html>
